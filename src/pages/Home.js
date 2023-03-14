@@ -1,4 +1,5 @@
 import About from "../components/About";
+import Products from "../components/Products";
 import Topbar from "../components/Topbar";
 
 function Home () {
@@ -6,6 +7,7 @@ function Home () {
         <div>
             <Topbar />
             <About />
+            <Products />
         </div>
     );
 }
