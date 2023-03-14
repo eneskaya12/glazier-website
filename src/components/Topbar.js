@@ -9,7 +9,7 @@ function Topbar() {
     }
 
   return (
-    <div className="p-5 bg-slate-400 shadow md:flex md:items-center md:justify-between">
+    <div className="p-5 bg-slate-400 shadow md:flex md:items-center md:justify-between sticky top-0 z-50">
       <div className="flex justify-between items-center">
         <span className="text-2xl font-bold cursor-pointer">
           <img className="h-10 inline" src="/assets/logoipsum-286.svg" alt="" />
@@ -19,7 +19,7 @@ function Topbar() {
         </span>
       </div>
 
-      <ul className={`md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-slate-400 w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-300 ${open ? "opacity-100 top-[80px]" : "opacity-0 top-[-400px]"}`}>
+      <ul className={`md:flex md:items-center z-0 md:z-auto md:static absolute bg-slate-400 w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-300 ${open ? "opacity-100 top-[80px]" : "opacity-0 top-[-400px]"}`}>
         <li className="mx-4 my-6 md:my-0">
           <a href="/#" className="text-xl hover:text-white duration-200">
             Anasayfa
