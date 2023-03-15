@@ -1,5 +1,5 @@
 import Footer from "../components/Footer";
-import Product from "../components/Product";
+import ProductType from "../components/ProductType";
 import Topbar from "../components/Topbar";
 
 function ProductPage() {
@@ -12,8 +12,8 @@ function ProductPage() {
           <span className="text-4xl ml-3 font-medium">Sürme Cam Sistemleri</span>
         </div>
         <div className="h-auto flex flex-wrap justify-center">
-          <Product />
-          <Product />
+          <ProductType />
+          <ProductType />
         </div>
       </div>
       <Footer />

@@ -1,46 +1,49 @@
+import { Link } from "react-router-dom";
+
 function Footer() {
   return (
     <div className="p-10 bg-slate-200">
       <div className="flex xl:flex-row flex-col lg:justify-evenly">
         <span className="text-2xl h-14 font-bold cursor-pointer mb-5">
-          <img className="h-14 inline" src="/assets/logoipsum-286.svg" alt="" />
+          <Link to="/">
+            <img
+              className="h-14 inline"
+              src="/assets/logoipsum-286.svg"
+              alt=""
+            />
+          </Link>
         </span>
         <div className="flex justify-evenly flex-wrap">
           <div className="flex flex-col m-5">
-            <span className="text-lg font-medium cursor-pointer hover:text-yellow-500 duration-200">
-              Ürünler
-            </span>
-            <span className="mb-1 cursor-pointer hover:text-yellow-500 duration-200">
-              Sürme Cam Sistemleri
-            </span>
-            <span className="mb-1 cursor-pointer hover:text-yellow-500 duration-200">
-              Sürme Cam Sistemleri
-            </span>
-            <span className="cursor-pointer hover:text-yellow-500 duration-200">
-              Sürme Cam Sistemleri
-            </span>
-            <span className="cursor-pointer hover:text-yellow-500 duration-200">
-              Sürme Cam Sistemleri
-            </span>
+            <Link to="/urunler" className="cursor-default">
+              <span className="text-lg font-medium cursor-pointer hover:text-yellow-500 duration-200">
+                Ürünler
+              </span>
+            </Link>
+            <Link to="/urun-sayfasi">
+              <span className="mb-1 cursor-pointer hover:text-yellow-500 duration-200">
+                Sürme Cam Sistemleri
+              </span>
+            </Link>
           </div>
           <div className="flex flex-col m-5">
-            <span className="text-lg font-medium cursor-pointer hover:text-yellow-500 duration-200">
-              Projeler
-            </span>
-            <span className="mb-1 cursor-pointer hover:text-yellow-500 duration-200">
-              Proje #1: Kış Bahçesi
-            </span>
-            <span className="mb-1 cursor-pointer hover:text-yellow-500 duration-200">
-              Proje #1: Kış Bahçesi
-            </span>
-            <span className="cursor-pointer hover:text-yellow-500 duration-200">
-              Proje #1: Kış Bahçesi
-            </span>
+            <Link to="/projeler" className="cursor-default">
+              <span className="text-lg font-medium cursor-pointer hover:text-yellow-500 duration-200">
+                Projeler
+              </span>
+            </Link>
+            <Link to="/proje-hakkinda">
+              <span className="mb-1 cursor-pointer hover:text-yellow-500 duration-200">
+                Proje #1: Kış Bahçesi
+              </span>
+            </Link>
           </div>
           <div className="flex flex-col m-5">
-            <span className="text-lg font-medium  cursor-pointer hover:text-yellow-500 duration-200">
-              İletişim
-            </span>
+            <Link to="/iletisim" className="cursor-default">
+              <span className="text-lg font-medium  cursor-pointer hover:text-yellow-500 duration-200">
+                İletişim
+              </span>
+            </Link>
             <span className="mb-1">Adres: Atatürk Caddesi - İstanbul</span>
             <span className="mb-1">Telefon: 0212 444 0 444</span>
             <span className="mb-1">E-Mail: demo@demo.com</span>

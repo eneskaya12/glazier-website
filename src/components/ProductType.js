@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 
-function Product() {
+function ProductType() {
   return (
     <div className="bg-slate-400 w-96 shadow-xl m-5 cursor-pointer">
-      <Link to="/urun-sayfasi">
+      <Link to="/urun-hakkinda">
         <div>
           <img
             className="w-full"
@@ -12,11 +12,13 @@ function Product() {
           />
         </div>
         <div className="bg-white w-full flex text-center justify-center p-5">
-          <span className="text-slate-500 text-2xl">Sürme Cam Sistemleri</span>
+          <span className="text-slate-500 text-2xl">
+            Isıcamlı Sürme Cam Sistemleri
+          </span>
         </div>
       </Link>
     </div>
   );
 }
 
-export default Product;
+export default ProductType;
