@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 function Footer() {
+  const { t } = useTranslation(["common", "product", "project"]);
+
   return (
     <div className="p-10 bg-slate-200">
       <div className="flex xl:flex-row flex-col lg:justify-evenly">
@@ -17,36 +20,36 @@ function Footer() {
           <div className="flex flex-col m-5">
             <Link to="/urunler" className="cursor-default">
               <span className="text-lg font-medium cursor-pointer hover:text-yellow-500 duration-200">
-                Ürünler
+                {t("common:products")}
               </span>
             </Link>
             <Link to="/urun-sayfasi">
               <span className="mb-1 cursor-pointer hover:text-yellow-500 duration-200">
-                Sürme Cam Sistemleri
+                {t("product:name")}
               </span>
             </Link>
           </div>
           <div className="flex flex-col m-5">
             <Link to="/projeler" className="cursor-default">
               <span className="text-lg font-medium cursor-pointer hover:text-yellow-500 duration-200">
-                Projeler
+                {t("common:projects")}
               </span>
             </Link>
             <Link to="/proje-hakkinda">
               <span className="mb-1 cursor-pointer hover:text-yellow-500 duration-200">
-                Proje #1: Kış Bahçesi
+              {t("project:name")}
               </span>
             </Link>
           </div>
           <div className="flex flex-col m-5">
             <Link to="/iletisim" className="cursor-default">
               <span className="text-lg font-medium  cursor-pointer hover:text-yellow-500 duration-200">
-                İletişim
+                {t("common:contact")}
               </span>
             </Link>
-            <span className="mb-1">Adres: Atatürk Caddesi - İstanbul</span>
-            <span className="mb-1">Telefon: 0212 444 0 444</span>
-            <span className="mb-1">E-Mail: demo@demo.com</span>
+            <span className="mb-1">{t("common:address")}: Atatürk Caddesi - İstanbul</span>
+            <span className="mb-1">{t("common:tel")}: 0212 444 0 444</span>
+            <span className="mb-1">{t("common:email")}: demo@demo.com</span>
           </div>
         </div>
 

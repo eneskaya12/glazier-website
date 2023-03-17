@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 function Product() {
+
+  const { t } = useTranslation(["product"]);
+
   return (
     <div className="bg-slate-400 w-96 shadow-xl m-5 cursor-pointer">
       <Link to="/urun-sayfasi">
@@ -12,7 +16,7 @@ function Product() {
           />
         </div>
         <div className="bg-white w-full flex text-center justify-center p-5">
-          <span className="text-slate-500 text-2xl">Sürme Cam Sistemleri</span>
+          <span className="text-slate-500 text-2xl">{t("name")}</span>
         </div>
       </Link>
     </div>

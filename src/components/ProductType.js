@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 function ProductType() {
+
+  const { t } = useTranslation(["productType"]);
+
   return (
     <div className="bg-slate-400 w-96 shadow-xl m-5 cursor-pointer">
       <Link to="/urun-hakkinda">
@@ -13,7 +17,7 @@ function ProductType() {
         </div>
         <div className="bg-white w-full flex text-center justify-center p-5">
           <span className="text-slate-500 text-2xl">
-            Isıcamlı Sürme Cam Sistemleri
+            {t("name")}
           </span>
         </div>
       </Link>

@@ -1,8 +1,23 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+
+import { useTranslation } from "react-i18next";
+import i18next from "i18next";
 
 function Topbar() {
   let [open, setOpen] = useState(false);
+
+  const {t, i18n} = useTranslation(["common"]);
+
+  useEffect((e) => {
+    if(localStorage.getItem("i18nextLng")?.length>2){
+      i18next.changeLanguage("tr");
+    }
+  }, [])
+
+  const handleLanguageChange = (e) => {
+    i18n.changeLanguage(e.target.value);
+  } 
 
   const menuHandler = () => {
     setOpen(!open);
@@ -35,12 +50,12 @@ function Topbar() {
       >
         <li className="mx-4 my-6 md:my-0">
           <Link to="/" className="text-xl hover:text-white duration-200">
-            Anasayfa
+          {t("home")}
           </Link>
         </li>
         <li className="mx-4 my-6 md:my-0">
           <Link to="/urunler" className="text-xl hover:text-white duration-200">
-            Ürünler
+            {t("products")}
           </Link>
         </li>
         <li className="mx-4 my-6 md:my-0">
@@ -48,7 +63,7 @@ function Topbar() {
             to="/projeler"
             className="text-xl hover:text-white duration-200"
           >
-            Projeler
+            {t("projects")}
           </Link>
         </li>
         <li className="mx-4 my-6 md:my-0">
@@ -56,8 +71,19 @@ function Topbar() {
             to="/iletisim"
             className="text-xl hover:text-white duration-200"
           >
-            İletişim
+            {t("contact")}
           </Link>
+        </li>
+        <li className="mx-4 my-6 md:my-0">
+        <select
+							className="text-xl bg-transparent border-b-2 border-black"
+							value={localStorage.getItem("i18nextLng")}
+							onChange={handleLanguageChange}
+						>
+							<option value="tr">Turkish</option>
+							<option value="en">English</option>
+							<option value="de">Deutsch</option>
+						</select>
         </li>
       </ul>
     </div>
