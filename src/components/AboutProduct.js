@@ -1,16 +1,11 @@
-import Footer from "../components/Footer";
-import Topbar from "../components/Topbar";
 import { useTranslation } from "react-i18next";
 
-function AboutProject() {
+function AboutProduct () {
 
-  const { t } = useTranslation(["aboutProject"]);
+    const { t } = useTranslation(["aboutProject"]);
 
-  return (
-    <div>
-      <Topbar />
-
-      <div className="p-10 pb-20 bg-slate-200">
+    return(
+        <div className="p-10 pb-20 bg-slate-200">
         <div className="flex flex-col">
           <span className="text-slate-700 text-3xl">{t("title")}</span>
           <span className="text-4xl ml-3 font-medium">
@@ -35,10 +30,7 @@ function AboutProject() {
           </div>
         </div>
       </div>
-
-      <Footer />
-    </div>
-  );
+    );
 }
 
-export default AboutProject;
+export default AboutProduct;
