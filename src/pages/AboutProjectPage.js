@@ -1,17 +1,17 @@
 import Footer from "../components/Footer";
 import Topbar from "../components/Topbar";
-import AboutProduct from "../components/AboutProduct";
+import AboutProject from "../components/AboutProject";
 
-function AboutProject() {
+function AboutProjectPage() {
   return (
     <div>
       <Topbar />
 
-      <AboutProduct />
+      <AboutProject />
 
       <Footer />
     </div>
   );
 }
 
-export default AboutProject;
+export default AboutProjectPage;
