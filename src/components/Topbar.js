@@ -24,7 +24,7 @@ function Topbar() {
   };
 
   return (
-    <div className="p-5 bg-custom-footNav shadow md:flex md:items-center md:justify-between sticky top-0 z-50 selection:bg-custom-theme selection:text-custom-white">
+    <div className="p-5 bg-custom-footNav bg-opacity-75 shadow md:flex md:items-center md:justify-between sticky top-0 z-50 selection:bg-custom-theme selection:text-custom-white">
       <div className="flex justify-between items-center">
         <span className="text-2xl font-bold cursor-pointer">
           <Link to="/">
@@ -44,7 +44,7 @@ function Topbar() {
       </div>
 
       <ul
-        className={`md:flex md:items-center z-0 md:z-auto md:static absolute bg-custom-footNav w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-300 ${
+        className={`md:bg-custom-transparent bg-custom-footNav bg-opacity-75 md:flex md:items-center z-0 md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-300 ${
           open ? "opacity-100 top-[80px]" : "opacity-0 top-[-400px]"
         }`}
       >
@@ -76,13 +76,13 @@ function Topbar() {
         </li>
         <li className="mx-4 my-6 md:my-0">
           <select
-            className="text-lg bg-custom-footNav text-custom-white cursor-pointer border-b-2 border-custom-theme font-[Montserrat]"
+            className="text-lg bg-custom-transparent text-custom-white cursor-pointer border-b-2 border-custom-theme font-[Montserrat] hover:bg-custom-theme"
             value={localStorage.getItem("i18nextLng")}
             onChange={handleLanguageChange}
           >
-            <option value="tr">Türkçe</option>
-            <option value="en">English</option>
-            <option value="de">Deutsch</option>
+            <option value="tr" className="bg-custom-footNav">Türkçe</option>
+            <option value="en" className="bg-custom-footNav">English</option>
+            <option value="de" className="bg-custom-footNav">Deutsch</option>
           </select>
         </li>
       </ul>
