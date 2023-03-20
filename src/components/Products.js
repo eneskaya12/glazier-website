@@ -8,13 +8,13 @@ function Products() {
   let lng = localStorage.getItem("i18nextLng");
 
   return (
-    <div className="py-20 px-5 bg-custom-section2 flex justify-center selection:bg-custom-theme selection:text-custom-white">
+    <div className="py-20 md:px-5 px-2 bg-custom-section2 flex justify-center selection:bg-custom-theme selection:text-custom-white">
       <div className="max-w-screen-xl">
         <div className="flex flex-col mb-10 border-l-4 pl-3 border-custom-theme">
-          <span className="text-custom-title text-xl italic font-[Montserrat]">
+          <span className="text-custom-title md:text-xl text-lg italic font-[Montserrat]">
             {common[0].products[`${lng}`]}
           </span>
-          <span className="text-custom-subtitle text-3xl font-medium font-[Montserrat]">
+          <span className="text-custom-subtitle md:text-3xl text-2xl font-medium font-[Montserrat]">
             {common[0].glass[`${lng}`]}
           </span>
         </div>

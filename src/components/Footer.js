@@ -8,7 +8,7 @@ function Footer() {
   let lng = localStorage.getItem("i18nextLng");
 
   return (
-    <div className="pt-20 pb-5 px-5 bg-custom-footNav flex justify-center selection:bg-custom-theme selection:text-custom-white">
+    <div className="pt-20 pb-5 md:px-5 px-2 bg-custom-footNav flex justify-center selection:bg-custom-theme selection:text-custom-white">
       <div className="max-w-screen-xl">
         <div className="flex xl:flex-row flex-col lg:justify-evenly">
           <span className="text-2xl h-14 font-bold cursor-pointer mb-5">
