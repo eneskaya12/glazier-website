@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { common, products, projects } from "../data";
 
 function Footer() {
-  const { t } = useTranslation(["common", "product", "project"]);
+  useTranslation();
+
+  let lng = localStorage.getItem("i18nextLng");
 
   return (
     <div className="p-10 bg-slate-200">
@@ -20,36 +23,46 @@ function Footer() {
           <div className="flex flex-col m-5">
             <Link to="/urunler" className="cursor-default">
               <span className="text-lg font-medium cursor-pointer hover:text-yellow-500 duration-200">
-                {t("common:products")}
+                {common[0].products[`${lng}`]}
               </span>
             </Link>
-            <Link to="/urun-sayfasi">
-              <span className="mb-1 cursor-pointer hover:text-yellow-500 duration-200">
-                {t("product:name")}
-              </span>
-            </Link>
+            {products.map((p) => (
+              <Link to={`/products/${p.url}`}>
+                <span className="mb-1 cursor-pointer hover:text-yellow-500 duration-200">
+                  {p.name[`${lng}`]}
+                </span>
+              </Link>
+            ))}
           </div>
           <div className="flex flex-col m-5">
             <Link to="/projeler" className="cursor-default">
               <span className="text-lg font-medium cursor-pointer hover:text-yellow-500 duration-200">
-                {t("common:projects")}
+                {common[0].projects[`${lng}`]}
               </span>
             </Link>
-            <Link to="/proje-hakkinda">
-              <span className="mb-1 cursor-pointer hover:text-yellow-500 duration-200">
-              {t("project:name")}
-              </span>
-            </Link>
+            {projects.map((p) => (
+              <Link to={`/projects/${p.url}`}>
+                <span className="mb-1 cursor-pointer hover:text-yellow-500 duration-200">
+                  {p.name[`${lng}`]}
+                </span>
+              </Link>
+            ))}
           </div>
           <div className="flex flex-col m-5">
-            <Link to="/iletisim" className="cursor-default">
+            <Link to="/contact" className="cursor-default">
               <span className="text-lg font-medium  cursor-pointer hover:text-yellow-500 duration-200">
-                {t("common:contact")}
+                {common[0].contact[`${lng}`]}
               </span>
             </Link>
-            <span className="mb-1">{t("common:address")}: Atatürk Caddesi - İstanbul</span>
-            <span className="mb-1">{t("common:tel")}: 0212 444 0 444</span>
-            <span className="mb-1">{t("common:email")}: demo@demo.com</span>
+            <span className="mb-1">
+              {common[0].address[`${lng}`]}: Atatürk Caddesi - İstanbul
+            </span>
+            <span className="mb-1">
+              {common[0].tel[`${lng}`]}: 0212 444 0 444
+            </span>
+            <span className="mb-1">
+              {common[0].products[`${lng}`]}: demo@demo.com
+            </span>
           </div>
         </div>
 

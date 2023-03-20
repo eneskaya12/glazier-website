@@ -1,21 +1,26 @@
 import Product from "./Product";
+import { products, common } from "../data";
 import { useTranslation } from "react-i18next";
 
 function Products() {
+  useTranslation();
 
-  const { t } = useTranslation(["products"]);
+  let lng = localStorage.getItem("i18nextLng");
 
   return (
     <div className="p-10 bg-slate-200">
       <div className="flex flex-col">
-        <span className="text-slate-700 text-3xl">{t("title")}</span>
-        <span className="text-4xl ml-3 font-medium">{t("subtitle")}</span>
+        <span className="text-slate-700 text-3xl">
+          {common[0].products[`${lng}`]}
+        </span>
+        <span className="text-4xl ml-3 font-medium">
+          {common[0].glass[`${lng}`]}
+        </span>
       </div>
       <div className="h-auto flex flex-wrap justify-center">
-        <Product />
-        <Product />
-        <Product />
-        <Product />
+        {products.map((p) => (
+          <Product product={p} />
+        ))}
       </div>
     </div>
   );

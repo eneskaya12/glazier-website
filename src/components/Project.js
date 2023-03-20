@@ -1,22 +1,25 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
-function Project() {
+function Project({ project }) {
+  useTranslation();
 
-  const { t } = useTranslation(["project"]);
+  let lng = localStorage.getItem("i18nextLng");
 
   return (
     <div className="bg-slate-400 w-96 shadow-xl m-5 cursor-pointer">
-      <Link to="/proje-hakkinda">
+      <Link to={`/projects/${project.url}`}>
         <div>
           <img
             className="w-full h-full object-cover"
-            src="https://www.edsproje.com/images/HEBE.jpg"
+            src={project.img}
             alt=""
           />
         </div>
         <div className="bg-white w-full flex text-center justify-center p-5">
-          <span className="text-slate-500 text-2xl">{t("name")}</span>
+          <span className="text-slate-500 text-2xl">
+            {project.name[`${lng}`]}
+          </span>
         </div>
       </Link>
     </div>

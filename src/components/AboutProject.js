@@ -1,36 +1,36 @@
 import { useTranslation } from "react-i18next";
+import { useParams } from "react-router-dom";
+import { projects, common } from "../data";
 
-function AboutProject () {
+function AboutProject() {
+  useTranslation();
 
-    const { t } = useTranslation(["aboutProject"]);
+  const { about } = useParams();
+  const project = projects.filter((item) => item.url === about)[0];
 
-    return(
-        <div className="p-10 pb-20 bg-slate-200">
-        <div className="flex flex-col">
-          <span className="text-slate-700 text-3xl">{t("title")}</span>
-          <span className="text-4xl ml-3 font-medium">
-            {t("subtitle")}
-          </span>
+  let lng = localStorage.getItem("i18nextLng");
+
+  return (
+    <div className="p-10 pb-20 bg-slate-200">
+      <div className="flex flex-col">
+        <span className="text-slate-700 text-3xl">
+          {common[0].projects[`${lng}`]}
+        </span>
+        <span className="text-4xl ml-3 font-medium">
+          {project.name[`${lng}`]}
+        </span>
+      </div>
+      <div className="mt-10 h-auto w-full flex flex-col lg:flex-row justify-center items-center lg:items-start">
+        <div className="lg:w-1/2 p-5 flex justify-center">
+          <img className="h-96 object-cover" src={project.img} alt="" />
         </div>
-        <div className="mt-10 h-auto w-full flex flex-col lg:flex-row justify-center items-center lg:items-start">
-          <div className="lg:w-1/2 p-5 flex justify-center">
-            <img
-              className="h-96 object-cover"
-              src="https://www.edsproje.com/images/HEBE.jpg"
-              alt=""
-            />
-          </div>
-          <div className="lg:w-1/2 p-5 lg:pr-20 flex flex-col">
-            <span className="mb-20 text-3xl">
-            {t("name")}
-            </span>
-            <span className="text-xl leading-8">
-              {t("desc")}
-            </span>
-          </div>
+        <div className="lg:w-1/2 p-5 lg:pr-20 flex flex-col">
+          <span className="mb-20 text-3xl">{project.name[`${lng}`]}</span>
+          <span className="text-xl leading-8">{project.desc[`${lng}`]}</span>
         </div>
       </div>
-    );
+    </div>
+  );
 }
 
 export default AboutProject;
