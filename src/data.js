@@ -1,11 +1,60 @@
 export const about = [
   {
     desc: {
-      tr: "Biz camcıyız kısaca. Cam işleri yapıyoruz. Bu işi severek yapıyoruz. Önceliğimiz müşterilerimizin hoşnutluğudur. İşlerimizi en üst seviyede bir kaliteyle yapmaktayız.",
-      en: "In short, we are glaziers. We do glass work. We love doing this job. Our priority is the satisfaction of our customers. We do our work with the highest quality.",
-      de: "Kurz gesagt, wir sind Glaser. Wir führen Glasarbeiten durch. Wir lieben diesen Job. Unsere Priorität ist die Zufriedenheit unserer Kunden. Wir erledigen unsere Arbeit mit höchster Qualität.",
+      tr: "2012 yılında kurulmus olup baslangıçtaki faaliyeti alüminyum doğrama ve cephe uygulamaları olmakla beraber her geçen gün plastik doğrama, alüminyum merdiven ve balkon korkuluğu, otomatik panjur ve garaj kapısı, fotoselli kapı, çelik kapı, cam balkon, stor sineklik, asma tavan işlerinde faaliyet göstererek ürün çeşitliliğini artırmıştır. 2003 ‘den beri sektörde var oluşu ile ismini duyurup şirketleşmesi ile beraber kendini ve müşteri memnuniyetini üst seviyelere çıkarmıştır. Her faaliyet kolunda sektörün önde gelen firmalarının profil ve aksesuar çeşitleri kullanılmaktadır. Full Otomatik CNC Makine parkurunu bünyesinde bulundurması ile hızlı ve kaliteli üretim yapmayı kendine görev bilmiştir.",
+      en: "Established in 2012, its initial activity is aluminum joinery and facade applications, but it has increased its product range by operating in plastic joinery, aluminum stairs and balcony railings, automatic blinds and garage doors, photocell doors, steel doors, glass balconies, roller blinds, suspended ceilings. has increased. Since 2003, it has announced its name with its existence in the sector and has increased itself and customer satisfaction to the highest levels with its incorporation. Profiles and accessories of the leading companies of the sector are used in every branch of activity. It has made it its duty to make fast and high quality production with its full automatic CNC machine park.",
+      de: "Das 2012 gegründete Unternehmen umfasst zunächst Aluminiumtischlerei und Fassadenanwendungen, hat seine Produktpalette jedoch um Kunststofftischlerei, Aluminiumtreppen und Balkongeländer, automatische Jalousien und Garagentore, Fotozellentüren, Stahltüren, Glasbalkone und Rollläden erweitert , abgehängte Decken. ist angestiegen. Seit 2003 hat es seinen Namen mit seiner Existenz in der Branche bekannt gemacht und mit seiner Gründung die Selbst- und Kundenzufriedenheit auf höchstem Niveau gesteigert. Profile und Zubehör der führenden Unternehmen der Branche werden in allen Tätigkeitsbereichen verwendet. Sie hat es sich zur Aufgabe gemacht, mit ihrem vollautomatischen CNC-Maschinenpark schnell und qualitativ hochwertig zu produzieren.",
     },
     img: "https://lh3.googleusercontent.com/p/AF1QipNp6Nb_9B0nOkym-kSJhtIzpS8qn1rEHIAI254-=w1080-h608-p-k-no-v0",
+    list: [
+      {
+        li: {
+          tr: "Cephe Sistemleri",
+          en: "Facade Systems",
+          de: "Fassadensysteme",
+        },
+      },
+      {
+        li: {
+          tr: "Alüminyum Profil ve Aksesuarları",
+          en: "Aluminum Profile and Accessories",
+          de: "Aluminiumprofil und Zubehör",
+        },
+      },
+      {
+        li: {
+          tr: "PVC Doğrama ve Aksesuarları",
+          en: "PVC Joinery and Accessories",
+          de: "PVC Tischlerei und Zubehör",
+        },
+      },
+      {
+        li: {
+          tr: "Panjur ve Kepenk Sistemleri",
+          en: "Shutter and Shutter Systems",
+          de: "Rollladen und Rollladensysteme",
+        },
+      },
+      {
+        li: {
+          tr: "Cam Balkon Sistemleri",
+          en: "Glass Balcony Systems",
+          de: "Balkonsysteme aus Glas",
+        },
+      },
+      {
+        li: {
+          tr: "Sineklik Sistemleri",
+          en: "Fly Screen Systems",
+          de: "Fliegengittersysteme",
+        },
+      },
+    ],
+    descBtt: {
+      tr: "gibi müşterilerine her türlü iç mekan ve dış mekan çözümleri sunmakta, satış ve satış sonrası hizmetleri sürdürmektedir. Yenilenen ve genişleyen uzman kadromuz, teknik altyapımız ile her gecen gün hizmetlerimizi güncellemekte, teknolojik gelişmeleri müşterilerimize iletmekteyiz.",
+      en: "It offers all kinds of indoor and outdoor solutions to its customers, such as sales and after-sales services. With our renewed and expanding expert staff and technical infrastructure, we update our services every day and convey technological developments to our customers.",
+      de: "Es bietet seinen Kunden alle Arten von Lösungen für den Innen- und Außenbereich, wie z. B. Verkaufs- und After-Sales-Services. Mit unserem erneuerten und wachsenden Fachpersonal und unserer technischen Infrastruktur aktualisieren wir unsere Dienstleistungen täglich und vermitteln unseren Kunden technologische Entwicklungen.",
+    },
   },
 ];
 

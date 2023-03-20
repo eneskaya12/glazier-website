@@ -24,7 +24,7 @@ function Topbar() {
   };
 
   return (
-    <div className="p-5 bg-slate-400 shadow md:flex md:items-center md:justify-between sticky top-0 z-50">
+    <div className="p-5 bg-custom-footNav shadow md:flex md:items-center md:justify-between sticky top-0 z-50 selection:bg-custom-theme selection:text-custom-white">
       <div className="flex justify-between items-center">
         <span className="text-2xl font-bold cursor-pointer">
           <Link to="/">
@@ -44,19 +44,19 @@ function Topbar() {
       </div>
 
       <ul
-        className={`md:flex md:items-center z-0 md:z-auto md:static absolute bg-slate-400 w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-300 ${
+        className={`md:flex md:items-center z-0 md:z-auto md:static absolute bg-custom-footNav w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-300 ${
           open ? "opacity-100 top-[80px]" : "opacity-0 top-[-400px]"
         }`}
       >
         <li className="mx-4 my-6 md:my-0">
-          <Link to="/" className="text-xl hover:text-white duration-200">
+          <Link to="/" className="text-lg text-custom-white hover:text-custom-theme duration-200 font-[Montserrat]">
             {t("home")}
           </Link>
         </li>
         <li className="mx-4 my-6 md:my-0">
           <Link
             to="/products"
-            className="text-xl hover:text-white duration-200"
+            className="text-lg text-custom-white hover:text-custom-theme duration-200 font-[Montserrat]"
           >
             {t("products")}
           </Link>
@@ -64,23 +64,23 @@ function Topbar() {
         <li className="mx-4 my-6 md:my-0">
           <Link
             to="/projects"
-            className="text-xl hover:text-white duration-200"
+            className="text-lg text-custom-white hover:text-custom-theme duration-200 font-[Montserrat]"
           >
             {t("projects")}
           </Link>
         </li>
         <li className="mx-4 my-6 md:my-0">
-          <Link to="/contact" className="text-xl hover:text-white duration-200">
+          <Link to="/contact" className="text-lg text-custom-white hover:text-custom-theme duration-200 font-[Montserrat]">
             {t("contact")}
           </Link>
         </li>
         <li className="mx-4 my-6 md:my-0">
           <select
-            className="text-xl bg-transparent border-b-2 border-black"
+            className="text-lg bg-custom-footNav text-custom-white cursor-pointer border-b-2 border-custom-theme font-[Montserrat]"
             value={localStorage.getItem("i18nextLng")}
             onChange={handleLanguageChange}
           >
-            <option value="tr">Turkish</option>
+            <option value="tr">Türkçe</option>
             <option value="en">English</option>
             <option value="de">Deutsch</option>
           </select>

@@ -7,17 +7,17 @@ function Project({ project }) {
   let lng = localStorage.getItem("i18nextLng");
 
   return (
-    <div className="bg-slate-400 w-96 shadow-xl m-5 cursor-pointer">
+    <div className="w-96 h-80shadow-xl m-5 cursor-pointer selection:bg-custom-theme selection:text-custom-white">
       <Link to={`/projects/${project.url}`}>
         <div>
           <img
-            className="w-full h-full object-cover"
+            className="md:w-96 md:h-80 w-full h-full object-cover"
             src={project.img}
             alt=""
           />
         </div>
         <div className="bg-white w-full flex text-center justify-center p-5">
-          <span className="text-slate-500 text-2xl">
+          <span className="text-slate-500 text-2xl font-medium font-[Montserrat]">
             {project.name[`${lng}`]}
           </span>
         </div>

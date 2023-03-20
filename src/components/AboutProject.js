@@ -11,22 +11,24 @@ function AboutProject() {
   let lng = localStorage.getItem("i18nextLng");
 
   return (
-    <div className="p-10 pb-20 bg-slate-200">
-      <div className="flex flex-col">
-        <span className="text-slate-700 text-3xl">
-          {common[0].projects[`${lng}`]}
-        </span>
-        <span className="text-4xl ml-3 font-medium">
-          {project.name[`${lng}`]}
-        </span>
-      </div>
-      <div className="mt-10 h-auto w-full flex flex-col lg:flex-row justify-center items-center lg:items-start">
-        <div className="lg:w-1/2 p-5 flex justify-center">
-          <img className="h-96 object-cover" src={project.img} alt="" />
+    <div className="py-20 px-5 bg-custom-section1 flex justify-center selection:bg-custom-theme selection:text-custom-white">
+      <div className="max-w-screen-xl">
+        <div className="flex flex-col border-l-4 pl-3 border-custom-theme">
+          <span className="text-custom-title text-xl italic font-[Montserrat]">
+            {common[0].projects[`${lng}`]}
+          </span>
+          <span className="text-custom-subtitle text-3xl font-medium font-[Montserrat]">
+            {project.name[`${lng}`]}
+          </span>
         </div>
-        <div className="lg:w-1/2 p-5 lg:pr-20 flex flex-col">
-          <span className="mb-20 text-3xl">{project.name[`${lng}`]}</span>
-          <span className="text-xl leading-8">{project.desc[`${lng}`]}</span>
+        <div className="mt-10 h-auto w-full flex flex-col lg:flex-row justify-center items-center lg:items-start">
+          <div className="lg:w-1/2 p-5 flex justify-center">
+            <img className="h-96 object-cover" src={project.img} alt="" />
+          </div>
+          <div className="lg:w-1/2 p-5 lg:pr-20 flex flex-col">
+            <span className="mb-20 text-3xl font-[Montserrat]">{project.name[`${lng}`]}</span>
+            <span className="text-xl leading-8 font-[Bitter]">{project.desc[`${lng}`]}</span>
+          </div>
         </div>
       </div>
     </div>
