@@ -24,7 +24,7 @@ function Topbar() {
   };
 
   return (
-    <div className="p-5 bg-custom-footNav bg-opacity-75 shadow md:flex md:items-center md:justify-between sticky top-0 z-50 selection:bg-custom-theme selection:text-custom-white">
+    <div className="p-5 bg-custom-footNav bg-opacity-90 shadow md:flex md:items-center md:justify-between sticky top-0 z-50 selection:bg-custom-theme selection:text-custom-white">
       <div className="flex justify-between items-center">
         <span className="text-2xl font-bold cursor-pointer">
           <Link to="/">
@@ -35,7 +35,7 @@ function Topbar() {
             />
           </Link>
         </span>
-        <span className="text-4xl cursor-pointer mx-2 md:hidden block">
+        <span className="text-custom-white text-4xl cursor-pointer mx-2 md:hidden block">
           <ion-icon
             name={open ? "close-outline" : "menu-outline"}
             onClick={menuHandler}
@@ -44,7 +44,7 @@ function Topbar() {
       </div>
 
       <ul
-        className={`md:bg-custom-transparent bg-custom-footNav bg-opacity-75 md:flex md:items-center z-0 md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-300 ${
+        className={`md:bg-custom-transparent bg-custom-footNav bg-opacity-80 md:flex md:items-center z-0 md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-300 ${
           open ? "opacity-100 top-[80px]" : "opacity-0 top-[-400px]"
         }`}
       >

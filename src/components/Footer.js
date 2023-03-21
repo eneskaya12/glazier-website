@@ -20,7 +20,7 @@ function Footer() {
               />
             </Link>
           </span>
-          <div className="flex justify-evenly flex-wrap mx-10">
+          <div className="flex justify-start flex-wrap mx-10">
             <div className="flex flex-col m-5">
               <Link to="/urunler" className="cursor-default mb-3">
                 <span className="text-lg font-medium cursor-pointer font-[Montserrat] hover:text-custom-white text-custom-theme duration-200">
