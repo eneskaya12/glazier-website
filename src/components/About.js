@@ -12,10 +12,10 @@ function About() {
         <div className="flex lg:flex-row flex-col-reverse">
           <div className="flex flex-col lg:pr-10 lg:w-1/2">
             <span className="mb-5 md:text-5xl text-3xl font-[Montserrat] border-l-4 pl-3 border-custom-theme">ARC Yapı</span>
-            <span className="mb-5 md:text-xl text-lg font-[Bitter] leading-8">{about[0].desc[`${lng}`]}</span>
+            <span className="text-custom-desc mb-5 md:text-xl text-lg font-[Bitter] leading-8">{about[0].desc[`${lng}`]}</span>
             <ul className="pl-10">
               {about[0].list.map((l) => (
-                <li className="md:text-xl text-lg list-disc font-[Bitter] leading-8">{l.li[`${lng}`]}</li>
+                <li className="text-custom-desc md:text-xl text-lg list-disc font-[Bitter] leading-8">{l.li[`${lng}`]}</li>
               ))}
             </ul>
           </div>
@@ -27,7 +27,7 @@ function About() {
             />
           </div>
         </div>
-        <span className="md:text-xl text-lg mt-5 font-[Bitter] leading-8">{about[0].descBtt[`${lng}`]}</span>
+        <span className="text-custom-desc md:text-xl text-lg mt-5 font-[Bitter] leading-8">{about[0].descBtt[`${lng}`]}</span>
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ module.exports = {
       custom: {
         theme: "#F66B0E",
         darkTheme: "#D95F0D",
-        footNav: "#222831",
+        footNav: "#222222",
         section1: "#F2F2F2",
         section2: "#FFFFFF",
         title: "#413F42",

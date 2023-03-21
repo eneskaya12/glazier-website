@@ -60,6 +60,11 @@ export const about = [
 
 export const common = [
   {
+    header: {
+      tr: "Yeniliklerin ve Kalitenin Adresi.",
+      en: "Address of Innovations and Quality.",
+      de: "Adresse für Innovationen und Qualität.",
+    },
     home: {
       tr: "Anasayfa",
       en: "Home",

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import About from "../components/About";
 import Footer from "../components/Footer";
 import GoTop from "../components/GoTop";
@@ -17,6 +17,10 @@ function Home() {
       setSticky(false);
     }
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   window.addEventListener("scroll", handleScroll);
 

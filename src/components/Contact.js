@@ -10,39 +10,49 @@ function Contact() {
     <div className="py-20 md:px-5 px-2 bg-custom-section1 flex justify-center selection:bg-custom-theme selection:text-custom-white">
       <div className="max-w-screen-xl w-full">
         <div className="flex flex-col border-l-4 pl-3 border-custom-theme">
-          <span className="text-custom-title md:text-xl text-lg italic font-[Montserrat]">
+          <span className="text-custom-title md:text-xl text-lg font-medium font-[Montserrat]">
             {common[0].contact[`${lng}`]}
           </span>
           <span className="text-custom-subtitle md:text-3xl text-2xl font-medium font-[Montserrat]">
             {common[0].contactSb[`${lng}`]}
           </span>
         </div>
-        <diV className="flex flex-col lg:flex-row md:px-16 px-0">
-          <div className="mt-10 lg:w-1/2 w-full py-10 md:pr-10">
+        <div className="flex justify-center items-center mt-10 px-4 w-full rounded-xl">
+          <iframe
+            className="md:w-11/12 w-full h-96 rounded-xl"
+            title="This is a unique title"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d894.1038555233266!2d39.37933086989528!3d41.0822174646982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40640dab31f580b1%3A0xbad1d9abe4dba0bc!2sBizim%20Saatci!5e0!3m2!1sen!2str!4v1679404289735!5m2!1sen!2str"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <diV className="flex flex-col-reverse lg:flex-row md:px-16 px-0">
+          <div className="md:mt-10 lg:w-1/2 w-full py-10 md:pr-10">
             <span className="md:text-3xl text-2xl font-[Montserrat]">
               {common[0].form[`${lng}`]}
             </span>
             <form className="flex flex-col">
               <input
-                className="mt-8 h-10 md:text-lg text-base p-3 pl-4 focus:outline-custom-theme focus:ease-in duration-200 rounded-xl font-[Montserrat]"
+                className="mt-8 h-10 md:text-lg text-base p-3 pl-4 focus:outline-custom-theme rounded-xl font-[Montserrat]"
                 type="text"
                 name="name"
                 placeholder={common[0].name[`${lng}`]}
               />
               <input
-                className="mt-8 h-10 md:text-lg text-base p-3 pl-4 focus:outline-custom-theme focus:ease-in duration-200 rounded-xl font-[Montserrat]"
+                className="mt-8 h-10 md:text-lg text-base p-3 pl-4 focus:outline-custom-theme rounded-xl font-[Montserrat]"
                 type="email"
                 name="email"
                 placeholder={common[0].email[`${lng}`]}
               />
               <input
-                className="mt-8 h-10 md:text-lg text-base p-3 pl-4 focus:outline-custom-theme focus:ease-in duration-200 rounded-xl font-[Montserrat]"
+                className="mt-8 h-10 md:text-lg text-base p-3 pl-4 focus:outline-custom-theme rounded-xl font-[Montserrat]"
                 type="tel"
                 name="tel"
                 placeholder={common[0].tel[`${lng}`]}
               />
               <textarea
-                className="mt-8 h-36 md:text-lg text-base p-3 pl-4 focus:outline-custom-theme focus:ease-in duration-200 rounded-xl font-[Montserrat]"
+                className="mt-8 h-36 md:text-lg text-base p-3 pl-4 focus:outline-custom-theme rounded-xl font-[Montserrat]"
                 type="textarea"
                 name="message"
                 placeholder={common[0].message[`${lng}`]}
@@ -101,16 +111,6 @@ function Contact() {
             </div>
           </div>
         </diV>
-        <div className="flex justify-center items-center mt-10 px-4 w-full rounded-xl">
-          <iframe
-            className="md:w-11/12 w-full h-96 rounded-xl"
-            title="This is a unique title"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d894.1038555233266!2d39.37933086989528!3d41.0822174646982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40640dab31f580b1%3A0xbad1d9abe4dba0bc!2sBizim%20Saatci!5e0!3m2!1sen!2str!4v1679404289735!5m2!1sen!2str"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
       </div>
     </div>
   );
