@@ -19,7 +19,9 @@ function Contact() {
         </div>
         <diV className="flex flex-col lg:flex-row md:px-16 px-0">
           <div className="mt-10 lg:w-1/2 w-full py-10 md:pr-10">
-            <span className="md:text-3xl text-2xl font-[Montserrat]">{common[0].form[`${lng}`]}</span>
+            <span className="md:text-3xl text-2xl font-[Montserrat]">
+              {common[0].form[`${lng}`]}
+            </span>
             <form className="flex flex-col">
               <input
                 className="mt-8 h-10 md:text-lg text-base p-3 pl-4 focus:outline-custom-theme focus:ease-in duration-200 rounded-xl font-[Montserrat]"
@@ -51,12 +53,16 @@ function Contact() {
             </form>
           </div>
           <div className="mt-10 lg:w-1/2 w-full py-10 md:pr-10">
-            <span className="md:text-3xl text-2xl font-[Montserrat]">{common[0].info[`${lng}`]}</span>
+            <span className="md:text-3xl text-2xl font-[Montserrat]">
+              {common[0].info[`${lng}`]}
+            </span>
             <div className="flex lg:flex-col flex-wrap">
               <div className="mt-8 md:text-xl text-lg mr-10 lg:mr-0">
                 <div className="flex items-center">
                   <ion-icon name="location-outline"></ion-icon>
-                  <span className="ml-5 font-[Montserrat]">Atatürk Caddesi - İstanbul</span>
+                  <span className="ml-5 font-[Montserrat]">
+                    Atatürk Caddesi - İstanbul
+                  </span>
                 </div>
                 <div className="mt-3 flex items-center">
                   <ion-icon name="call-outline"></ion-icon>
@@ -68,7 +74,9 @@ function Contact() {
                 </div>
               </div>
               <div className="mt-8">
-                <span className="md:text-2xl text-xl font-[Montserrat]">{common[0].social[`${lng}`]}</span>
+                <span className="md:text-2xl text-xl font-[Montserrat]">
+                  {common[0].social[`${lng}`]}
+                </span>
                 <div className="mt-5 text-4xl">
                   <a
                     className="mr-5 hover:text-custom-theme duration-200"
@@ -93,6 +101,16 @@ function Contact() {
             </div>
           </div>
         </diV>
+        <div className="flex justify-center items-center mt-10 px-4 w-full rounded-xl">
+          <iframe
+            className="md:w-11/12 w-full h-96 rounded-xl"
+            title="This is a unique title"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d894.1038555233266!2d39.37933086989528!3d41.0822174646982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40640dab31f580b1%3A0xbad1d9abe4dba0bc!2sBizim%20Saatci!5e0!3m2!1sen!2str!4v1679404289735!5m2!1sen!2str"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </div>
     </div>
   );
