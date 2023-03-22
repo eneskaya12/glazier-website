@@ -1,7 +1,7 @@
 import Footer from "../components/Footer";
 import ProductType from "../components/ProductType";
 import Topbar from "../components/Topbar";
-import { useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 import { products, common } from "../data";
 import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
@@ -11,6 +11,8 @@ function ProductPage() {
 
   const { types } = useParams();
   const product = products.filter((item) => item.url === types)[0];
+
+  console.log(product.types.length);
 
   let lng = localStorage.getItem("i18nextLng");
 
@@ -25,7 +27,7 @@ function ProductPage() {
         <div className="max-w-screen-xl">
           <div className="flex flex-col mb-10 border-l-4 pl-3 border-custom-theme">
             <span className="text-custom-title md:text-xl text-lg font-medium font-[Montserrat]">
-              {common[0].products[`${lng}`]}
+              {common[0].glass[`${lng}`]}
             </span>
             <span className="text-custom-subtitle md:text-3xl text-2xl font-medium font-[Montserrat]">
               {product.name[`${lng}`]}

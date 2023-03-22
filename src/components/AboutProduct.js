@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { useParams } from "react-router-dom";
-import { products, common } from "../data";
+import { products } from "../data";
 
 function AboutProduct() {
   useTranslation();
@@ -10,6 +10,8 @@ function AboutProduct() {
     .filter((item) => item.url === types)[0]
     .types.filter((item) => item.url === about)[0];
 
+  const title = products.filter((item) => item.url === types)[0];
+
   let lng = localStorage.getItem("i18nextLng");
 
   return (
@@ -17,7 +19,7 @@ function AboutProduct() {
       <div className="max-w-screen-xl">
         <div className="flex flex-col border-l-4 pl-3 border-custom-theme">
           <span className="text-custom-title md:text-xl text-lg font-medium font-[Montserrat]">
-            {common[0].products[`${lng}`]}
+            {title.name[`${lng}`]}
           </span>
           <span className="text-custom-subtitle md:text-3xl text-2xl font-medium font-[Montserrat]">
             {product.name[`${lng}`]}
