@@ -1,6 +1,7 @@
 import Product from "./Product";
-import { products, common } from "../data";
+import { products, common, products2 } from "../data";
 import { useTranslation } from "react-i18next";
+import Product2 from "./Product2";
 
 function Products() {
   useTranslation();
@@ -21,6 +22,9 @@ function Products() {
         <div className="h-auto flex flex-wrap justify-center">
           {products.map((p) => (
             <Product product={p} />
+          ))}
+          {products2.map((p) => (
+            <Product2 product={p} />
           ))}
         </div>
       </div>

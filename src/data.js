@@ -326,3 +326,62 @@ export const products = [
     ],
   },
 ];
+
+export const products2 = [
+  {
+    name: {
+      tr: "araba",
+      en: "araba-en",
+      de: "araba-de",
+    },
+    img: "https://elizcam.com.tr/wp-content/uploads/2023/01/Mask-group-7-1-466x393.jpg",
+    url: "araba",
+    desc: {
+      tr: "Yeni bir yaşam alanı oluşturmak isteyenler için her detayı incelikle düşünülerek tasarlanan Wingarterm, güneş ışınlarının etkisini azaltmak için tavanda nitelikli ısıcam olarak kullanılmaktadır. Lamine cam yapısı sayesinde kırılmalara karşı dayanıklı olan Wingarterm güvenli bir ortam oluşturur. Wingarterm ihtiyaçlarınıza göre sürme, giyotin ya da katlanır cam sistemleriyle tamamlanabilmektedir.",
+      en: "Wingarterm, designed with every detail in mind for those who want to create a new living space, is used as a qualified double glazing on the ceiling to reduce the effect of sun rays. Thanks to its laminated glass structure, Wingarterm is resistant to breakage and creates a safe environment. Wingarterm can be completed with sliding, guillotine or folding glass systems according to your needs.",
+      de: "Wingarterm, das bis ins kleinste Detail für diejenigen entworfen wurde, die einen neuen Wohnraum schaffen möchten, wird als qualifizierte Doppelverglasung an der Decke verwendet, um die Wirkung von Sonnenstrahlen zu reduzieren. Dank seiner laminierten Glasstruktur ist Wingarterm bruchfest und schafft eine sichere Umgebung. Wingarterm kann je nach Bedarf mit Schiebe-, Guillotine- oder Faltglassystemen ergänzt werden.",
+    },
+  },
+  {
+    name: {
+      tr: "ucak",
+      en: "ucak-en",
+      de: "ucak-de",
+    },
+    img: "https://elizcam.com.tr/wp-content/uploads/2023/01/Mask-group-7-1-466x393.jpg",
+    url: "ucak",
+    desc: {
+      tr: "Yeni bir yaşam alanı oluşturmak isteyenler için her detayı incelikle düşünülerek tasarlanan Wingarterm, güneş ışınlarının etkisini azaltmak için tavanda nitelikli ısıcam olarak kullanılmaktadır. Lamine cam yapısı sayesinde kırılmalara karşı dayanıklı olan Wingarterm güvenli bir ortam oluşturur. Wingarterm ihtiyaçlarınıza göre sürme, giyotin ya da katlanır cam sistemleriyle tamamlanabilmektedir.",
+      en: "Wingarterm, designed with every detail in mind for those who want to create a new living space, is used as a qualified double glazing on the ceiling to reduce the effect of sun rays. Thanks to its laminated glass structure, Wingarterm is resistant to breakage and creates a safe environment. Wingarterm can be completed with sliding, guillotine or folding glass systems according to your needs.",
+      de: "Wingarterm, das bis ins kleinste Detail für diejenigen entworfen wurde, die einen neuen Wohnraum schaffen möchten, wird als qualifizierte Doppelverglasung an der Decke verwendet, um die Wirkung von Sonnenstrahlen zu reduzieren. Dank seiner laminierten Glasstruktur ist Wingarterm bruchfest und schafft eine sichere Umgebung. Wingarterm kann je nach Bedarf mit Schiebe-, Guillotine- oder Faltglassystemen ergänzt werden.",
+    },
+  },
+  {
+    name: {
+      tr: "bisiklet",
+      en: "bisiklet-en",
+      de: "bisiklet-de",
+    },
+    img: "https://elizcam.com.tr/wp-content/uploads/2023/01/Mask-group-7-1-466x393.jpg",
+    url: "bisiklet",
+    desc: {
+      tr: "Yeni bir yaşam alanı oluşturmak isteyenler için her detayı incelikle düşünülerek tasarlanan Wingarterm, güneş ışınlarının etkisini azaltmak için tavanda nitelikli ısıcam olarak kullanılmaktadır. Lamine cam yapısı sayesinde kırılmalara karşı dayanıklı olan Wingarterm güvenli bir ortam oluşturur. Wingarterm ihtiyaçlarınıza göre sürme, giyotin ya da katlanır cam sistemleriyle tamamlanabilmektedir.",
+      en: "Wingarterm, designed with every detail in mind for those who want to create a new living space, is used as a qualified double glazing on the ceiling to reduce the effect of sun rays. Thanks to its laminated glass structure, Wingarterm is resistant to breakage and creates a safe environment. Wingarterm can be completed with sliding, guillotine or folding glass systems according to your needs.",
+      de: "Wingarterm, das bis ins kleinste Detail für diejenigen entworfen wurde, die einen neuen Wohnraum schaffen möchten, wird als qualifizierte Doppelverglasung an der Decke verwendet, um die Wirkung von Sonnenstrahlen zu reduzieren. Dank seiner laminierten Glasstruktur ist Wingarterm bruchfest und schafft eine sichere Umgebung. Wingarterm kann je nach Bedarf mit Schiebe-, Guillotine- oder Faltglassystemen ergänzt werden.",
+    },
+  },
+  {
+    name: {
+      tr: "kaykay",
+      en: "kaykay-en",
+      de: "kaykay-de",
+    },
+    img: "https://elizcam.com.tr/wp-content/uploads/2023/01/Mask-group-7-1-466x393.jpg",
+    url: "kaykay",
+    desc: {
+      tr: "Yeni bir yaşam alanı oluşturmak isteyenler için her detayı incelikle düşünülerek tasarlanan Wingarterm, güneş ışınlarının etkisini azaltmak için tavanda nitelikli ısıcam olarak kullanılmaktadır. Lamine cam yapısı sayesinde kırılmalara karşı dayanıklı olan Wingarterm güvenli bir ortam oluşturur. Wingarterm ihtiyaçlarınıza göre sürme, giyotin ya da katlanır cam sistemleriyle tamamlanabilmektedir.",
+      en: "Wingarterm, designed with every detail in mind for those who want to create a new living space, is used as a qualified double glazing on the ceiling to reduce the effect of sun rays. Thanks to its laminated glass structure, Wingarterm is resistant to breakage and creates a safe environment. Wingarterm can be completed with sliding, guillotine or folding glass systems according to your needs.",
+      de: "Wingarterm, das bis ins kleinste Detail für diejenigen entworfen wurde, die einen neuen Wohnraum schaffen möchten, wird als qualifizierte Doppelverglasung an der Decke verwendet, um die Wirkung von Sonnenstrahlen zu reduzieren. Dank seiner laminierten Glasstruktur ist Wingarterm bruchfest und schafft eine sichere Umgebung. Wingarterm kann je nach Bedarf mit Schiebe-, Guillotine- oder Faltglassystemen ergänzt werden.",
+    },
+  },
+];

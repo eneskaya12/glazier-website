@@ -1,0 +1,20 @@
+import Footer from "../components/Footer";
+import Topbar from "../components/Topbar";
+import AboutProduct2 from "../components/AboutProduct2";
+import { useEffect } from "react";
+
+function AboutProductPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  return (
+    <div>
+      <Topbar />
+      <AboutProduct2 />
+      <Footer />
+    </div>
+  );
+}
+
+export default AboutProductPage;

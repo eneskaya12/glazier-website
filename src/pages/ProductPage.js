@@ -1,7 +1,7 @@
 import Footer from "../components/Footer";
 import ProductType from "../components/ProductType";
 import Topbar from "../components/Topbar";
-import { Navigate, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { products, common } from "../data";
 import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
@@ -11,8 +11,6 @@ function ProductPage() {
 
   const { types } = useParams();
   const product = products.filter((item) => item.url === types)[0];
-
-  console.log(product.types.length);
 
   let lng = localStorage.getItem("i18nextLng");
 
