@@ -151,16 +151,16 @@ export const common = [
 export const projects = [
   {
     name: {
-      tr: "Alüminyum",
-      en: "Aluminum",
-      de: "Aluminium",
+      tr: "Alüminyum Doğrama",
+      en: "Aluminum Joinery",
+      de: "Tischlerei aus Aluminium",
     },
     img: "/assets/projects/aluminyum/1.jpg",
     url: "aluminyum",
     desc: {
-      tr: "Alüminyum projesi güzeldi. Katılan tüm çalışanlar için keyifliydi. Herkes unutamayacağı dolu dolu anlar yaşadı.",
-      en: "The aluminum project was beautiful. It was enjoyable for all the employees involved. Everyone had unforgettable moments.",
-      de: "Das Aluminiumprojekt war wunderschön. Es hat allen beteiligten Mitarbeitern Spaß gemacht. Alle hatten unvergessliche Momente.",
+      tr: "Pamukkale İlçemizde yer alan villamızda HBŞB ve sürme sistemleri ile alüminyum doğrama işlemleri titizlikle tamamlanmıştır",
+      en: "HBSB and sliding systems and aluminum joinery processes have been meticulously completed in our villa located in Pamukkale.",
+      de: "HBSB und Schiebesysteme sowie Aluminiumschreinereiprozesse wurden in unserer Villa in Pamukkale sorgfältig abgeschlossen.",
     },
   },
   {
@@ -172,9 +172,9 @@ export const projects = [
     img: "/assets/projects/camBalkon/2.jpg",
     url: "cam-balkon",
     desc: {
-      tr: "Cam balkon projesinde cam balkon yaptık. Aslında balkonlar yapılmış oluyor genelde. Biz sadece üzerinde geliştirme yapıp cam balkon haline getiriyoruz.",
-      en: "We made a glass balcony in the glass balcony project. In fact, balconies are usually built. We only develop it and turn it into a glass balcony.",
-      de: "Wir haben einen Glasbalkon im Glasbalkonprojekt gemacht. Tatsächlich werden Balkone normalerweise gebaut. Wir entwickeln es nur und verwandeln es in einen gläsernen Balkon.",
+      tr: "Yenişehir-Koşuyolu lokasyonunda 180° cam balkon uygulaması yapılmıştır.",
+      en: "180° glass balcony application was made in Yenişehir-Koşuyolu location.",
+      de: "Die 180°-Glasbalkonanwendung wurde am Standort Yenişehir-Koşuyolu durchgeführt.",
     },
   },
   {
@@ -186,9 +186,9 @@ export const projects = [
     img: "/assets/projects/kisBahcesi/2.jpg",
     url: "kis-bahcesi",
     desc: {
-      tr: "Kış bahçesi projemizde kış bahçesi inşa ettik. Çok eğlendik, çok keyifli bir projeydi. Müşterimiz de son derece memnun kaldı.",
-      en: "We built a winter garden in our winter garden project. We had a lot of fun, it was a very enjoyable project. Our customer was also extremely satisfied.",
-      de: "Wir haben in unserem Wintergartenprojekt einen Wintergarten gebaut. Wir hatten viel Spaß, es war ein sehr angenehmes Projekt. Auch unser Kunde war sehr zufrieden.",
+      tr: "Yenişehir Mahallesinde bulunan kış bahçesi uygulamamıza ek olarak giyotin , panjur ve kepenk sistemleri ARC Yapı güvencesiyle tamamlanmıştır.",
+      en: "In addition to our winter garden application in Yenişehir District, guillotine, shutter and shutter systems have been completed with the assurance of ARC Yapı.",
+      de: "Zusätzlich zu unserer Wintergartenanwendung im Bezirk Yenişehir wurden Guillotine-, Rollladen- und Rollladensysteme mit der Zusicherung von ARC Yapı fertiggestellt.",
     },
   },
   {
@@ -200,23 +200,23 @@ export const projects = [
     img: "/assets/projects/panjur/1.jpg",
     url: "panjur",
     desc: {
-      tr: "Panjur projemizde panjur yaptık. Keyifliydi, gayet de eğlendik yaparken.",
-      en: "We made blinds in our blinds project. It was fun, we had a lot of fun while doing it.",
-      de: "Wir haben Jalousien in unserem Jalousienprojekt hergestellt. Es hat Spaß gemacht, wir hatten viel Spaß dabei.",
+      tr: "Merkezefendi İlçemizde bulunan lüks daire için son derece kaliteli ve estetik panjur montajımız tamamlanmıştır.",
+      en: "Our high quality and aesthetic blinds installation has been completed for the luxury apartment in our Merkezefendi District.",
+      de: "Unsere hochwertige und ästhetische Jalousieninstallation wurde für die Luxuswohnung in unserem Merkezefendi-Viertel abgeschlossen.",
     },
   },
   {
     name: {
-      tr: "PVC",
-      en: "PVC",
-      de: "PVC",
+      tr: "PVC Doğrama",
+      en: "PVC Joinery",
+      de: "PVC Tischlerei",
     },
     img: "/assets/projects/pvc/1.jpg",
     url: "pvc",
     desc: {
-      tr: "PVC projemizde tim emin ihtiyaçkarını PVC ile kapattık. Sonuç gayet tatmin ediciydi. Müşterimiz de sonuçtan gayet memnndu.",
-      en: "In our PVC project, the team is sure to cover their needs with PVC. The result was quite satisfactory. Our customer was also very satisfied with the result.",
-      de: "In unserem PVC-Projekt ist das Team sicher, seinen Bedarf mit PVC zu decken. Das Ergebnis war durchaus zufriedenstellend. Auch unser Kunde war mit dem Ergebnis sehr zufrieden.",
+      tr: "Son derece sağlam ve ARC Yapı güveniliriğine sahip PVC doğramalarmız Acıpayam İlçemize hayırlı olması dileğiyle.",
+      en: "We hope that our PVC joinery, which is extremely durable and has the reliability of ARC Yapı, will be beneficial for our Acıpayam District.",
+      de: "Wir hoffen, dass unsere PVC-Tischlerei, die extrem langlebig ist und die Zuverlässigkeit von ARC Yapı hat, unserem Distrikt Acıpayam zugute kommt.",
     },
   },
 ];
@@ -224,9 +224,9 @@ export const projects = [
 export const products = [
   {
     name: {
-      tr: "Alüminyum",
-      en: "Aluminum",
-      de: "Aluminium",
+      tr: "Alüminyum Doğrama",
+      en: "Aluminum Joinery",
+      de: "Tischlerei aus Aluminium",
     },
     img: "/assets/products/aluminyum/0.jpg",
     url: "aluminyum",
@@ -298,9 +298,9 @@ export const products = [
   },
   {
     name: {
-      tr: "PVC",
-      en: "PVC",
-      de: "PVC",
+      tr: "PVC Doğrama",
+      en: "PVC Joinery",
+      de: "PVC Tischlerei",
     },
     img: "/assets/products/pvc/0.jpg",
     url: "pvc",
@@ -462,6 +462,12 @@ export const products2 = [
       },
       {
         src: "/assets/products/panjur/4.jpg",
+      },
+      {
+        src: "/assets/products/panjur/5.jpg",
+      },
+      {
+        src: "/assets/products/panjur/6.jpg",
       },
     ],
   },

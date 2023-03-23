@@ -20,7 +20,7 @@ function Footer() {
               />
             </Link>
           </span>
-          <div className="flex justify-center flex-wrap md:mx-10">
+          <div className="flex justify-center flex-wrap md:mx-5">
             <div className="flex flex-col md:m-5 m-3">
               <Link to="/products" className="cursor-default mb-3">
                 <span className="text-lg font-medium cursor-pointer font-[Montserrat] hover:text-custom-white text-custom-theme duration-200">
@@ -80,19 +80,19 @@ function Footer() {
 
           <div className="text-3xl flex flex-wrap justify-center h-1/2">
             <a
-              className="mt-5 mr-5 h-9 hover:text-custom-theme text-custom-white duration-200"
+              className="mt-5 mr-3 h-9 hover:text-custom-theme text-custom-white duration-200"
               href="/#"
             >
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
             <a
-              className="mt-5 mr-5 h-9 hover:text-custom-theme text-custom-white duration-200"
+              className="mt-5 mr-3 h-9 hover:text-custom-theme text-custom-white duration-200"
               href="/#"
             >
               <ion-icon name="logo-facebook"></ion-icon>
             </a>
             <a
-              className="mt-5 mr-5 h-9 hover:text-custom-theme text-custom-white duration-200"
+              className="mt-5 mr-3 h-9 hover:text-custom-theme text-custom-white duration-200"
               href="/#"
             >
               <ion-icon name="logo-twitter"></ion-icon>
