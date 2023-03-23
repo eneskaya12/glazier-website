@@ -52,7 +52,7 @@ function Topbar() {
           <li className="mx-4 my-6 md:my-0">
             <Link
               to="/"
-              className="text-lg text-custom-white hover:text-custom-theme duration-200 font-[Montserrat]"
+              className="text-lg text-custom-white hover:text-custom-theme duration-200 font-[Montserrat] font-medium"
             >
               {t("home")}
             </Link>
@@ -60,7 +60,7 @@ function Topbar() {
           <li className="mx-4 my-6 md:my-0">
             <Link
               to="/products"
-              className="text-lg text-custom-white hover:text-custom-theme duration-200 font-[Montserrat]"
+              className="text-lg text-custom-white hover:text-custom-theme duration-200 font-[Montserrat] font-medium"
             >
               {t("products")}
             </Link>
@@ -68,7 +68,7 @@ function Topbar() {
           <li className="mx-4 my-6 md:my-0">
             <Link
               to="/projects"
-              className="text-lg text-custom-white hover:text-custom-theme duration-200 font-[Montserrat]"
+              className="text-lg text-custom-white hover:text-custom-theme duration-200 font-[Montserrat] font-medium"
             >
               {t("projects")}
             </Link>
@@ -76,14 +76,14 @@ function Topbar() {
           <li className="mx-4 my-6 md:my-0">
             <Link
               to="/contact"
-              className="text-lg text-custom-white hover:text-custom-theme duration-200 font-[Montserrat]"
+              className="text-lg text-custom-white hover:text-custom-theme duration-200 font-[Montserrat] font-medium"
             >
               {t("contact")}
             </Link>
           </li>
           <li className="mx-4 my-6 md:my-0">
             <select
-              className="text-lg bg-custom-transparent text-custom-white cursor-pointer border-b-2 pb-1 border-custom-theme font-[Montserrat] hover:bg-custom-theme"
+              className="text-lg bg-custom-transparent text-custom-white cursor-pointer border-b-2 pb-1 border-custom-theme font-[Montserrat] hover:text-custom-theme duration-200 font-medium outline-0"
               value={localStorage.getItem("i18nextLng")}
               onChange={handleLanguageChange}
             >

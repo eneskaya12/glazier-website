@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { common, products, projects } from "../data";
+import { common, products, products2, projects } from "../data";
 
 function Footer() {
   useTranslation();
@@ -11,7 +11,7 @@ function Footer() {
     <div className="pt-20 pb-5 md:px-5 px-2 bg-custom-footNav flex justify-center selection:bg-custom-theme selection:text-custom-white">
       <div className="max-w-screen-xl">
         <div className="flex xl:flex-row flex-col lg:justify-evenly">
-          <span className="text-2xl h-14 font-bold cursor-pointer mb-5">
+          <span className="text-2xl h-14 font-bold cursor-pointer mb-10 flex justify-center">
             <Link to="/">
               <img
                 className="h-14 inline"
@@ -20,8 +20,8 @@ function Footer() {
               />
             </Link>
           </span>
-          <div className="flex justify-start flex-wrap mx-10">
-            <div className="flex flex-col m-5">
+          <div className="flex justify-center flex-wrap md:mx-10">
+            <div className="flex flex-col md:m-5 m-3">
               <Link to="/products" className="cursor-default mb-3">
                 <span className="text-lg font-medium cursor-pointer font-[Montserrat] hover:text-custom-white text-custom-theme duration-200">
                   {common[0].products[`${lng}`]}
@@ -29,13 +29,20 @@ function Footer() {
               </Link>
               {products.map((p) => (
                 <Link to={`/products/${p.url}`}>
-                  <span className="mb-1 cursor-pointer font-[Montserrat] hover:text-custom-theme text-custom-white duration-200">
+                  <span className="mb-1 cursor-pointer font-[Montserrat] hover:text-custom-theme text-custom-white duration-200 font-medium">
+                    {p.name[`${lng}`]}
+                  </span>
+                </Link>
+              ))}
+              {products2.map((p) => (
+                <Link to={`/product/${p.url}`}>
+                  <span className="mb-1 cursor-pointer font-[Montserrat] hover:text-custom-theme text-custom-white duration-200 font-medium">
                     {p.name[`${lng}`]}
                   </span>
                 </Link>
               ))}
             </div>
-            <div className="flex flex-col m-5">
+            <div className="flex flex-col md:m-5 m-3">
               <Link to="/projects" className="cursor-default mb-3">
                 <span className="text-lg font-medium cursor-pointer font-[Montserrat] hover:text-custom-white text-custom-theme duration-200">
                   {common[0].projects[`${lng}`]}
@@ -43,27 +50,27 @@ function Footer() {
               </Link>
               {projects.map((p) => (
                 <Link to={`/projects/${p.url}`}>
-                  <span className="mb-1 cursor-pointer font-[Montserrat] hover:text-custom-theme text-custom-white duration-200">
+                  <span className="mb-1 cursor-pointer font-[Montserrat] hover:text-custom-theme text-custom-white duration-200 font-medium">
                     {p.name[`${lng}`]}
                   </span>
                 </Link>
               ))}
             </div>
-            <div className="flex flex-col m-5">
+            <div className="flex flex-col md:m-5 m-3">
               <Link to="/contact" className="cursor-default mb-3">
                 <span className="text-lg font-medium  cursor-pointer font-[Montserrat] hover:text-custom-white text-custom-theme duration-200">
                   {common[0].contact[`${lng}`]}
                 </span>
               </Link>
-              <span className="mb-1 font-[Montserrat] flex items-center text-custom-theme">
+              <span className="mb-1 font-[Montserrat] flex items-center text-custom-theme font-medium">
                 <ion-icon name="location-outline"></ion-icon>
                 <span className="ml-3 text-custom-white">Atatürk Caddesi - İstanbul</span>
               </span>
-              <span className="mb-1 font-[Montserrat] flex items-center text-custom-theme">
+              <span className="mb-1 font-[Montserrat] flex items-center text-custom-theme font-medium">
                 <ion-icon name="call-outline"></ion-icon>
                 <span className="ml-3 text-custom-white">0212 444 0 444</span>
               </span>
-              <span className="mb-1 font-[Montserrat] flex items-center text-custom-theme">
+              <span className="mb-1 font-[Montserrat] flex items-center text-custom-theme font-medium">
                 <ion-icon name="mail-outline"></ion-icon>
                 <span className="ml-3 text-custom-white">demo@demo.com</span>
                  
@@ -94,7 +101,7 @@ function Footer() {
         </div>
         <hr className="border-6 w-full text-custom-theme mt-5" />
         <div className="w-full flex text-custom-white text-center justify-center p-5">
-          <span>©2023 ARC Yapı</span>
+          <span>Copyright © {new Date().getFullYear()} All rights reserved.</span>
         </div>
       </div>
     </div>

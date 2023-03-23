@@ -29,62 +29,62 @@ function Contact() {
         </div>
         <diV className="flex flex-col-reverse lg:flex-row md:px-16 px-0">
           <div className="md:mt-10 lg:w-1/2 w-full py-10 md:pr-10">
-            <span className="md:text-3xl text-2xl font-[Montserrat]">
+            <span className="md:text-3xl text-2xl font-[Montserrat] font-medium">
               {common[0].form[`${lng}`]}
             </span>
             <form className="flex flex-col">
               <input
-                className="mt-8 h-10 md:text-lg text-base p-3 pl-4 focus:outline-custom-theme rounded-xl font-[Montserrat]"
+                className="mt-8 h-10 md:text-lg text-base p-3 pl-4 outline-custom-theme rounded-xl font-[Montserrat]"
                 type="text"
                 name="name"
                 placeholder={common[0].name[`${lng}`]}
               />
               <input
-                className="mt-8 h-10 md:text-lg text-base p-3 pl-4 focus:outline-custom-theme rounded-xl font-[Montserrat]"
+                className="mt-8 h-10 md:text-lg text-base p-3 pl-4 outline-custom-theme rounded-xl font-[Montserrat]"
                 type="email"
                 name="email"
                 placeholder={common[0].email[`${lng}`]}
               />
               <input
-                className="mt-8 h-10 md:text-lg text-base p-3 pl-4 focus:outline-custom-theme rounded-xl font-[Montserrat]"
+                className="mt-8 h-10 md:text-lg text-base p-3 pl-4 outline-custom-theme rounded-xl font-[Montserrat]"
                 type="tel"
                 name="tel"
                 placeholder={common[0].tel[`${lng}`]}
               />
               <textarea
-                className="mt-8 h-36 md:text-lg text-base p-3 pl-4 focus:outline-custom-theme rounded-xl font-[Montserrat]"
+                className="mt-8 h-36 max-h-64 md:text-lg text-base p-3 pl-4 focus:outline-custom-theme rounded-xl font-[Montserrat]"
                 type="textarea"
                 name="message"
                 placeholder={common[0].message[`${lng}`]}
               />
-              <button className="mt-8 bg-custom-theme hover:bg-custom-darkTheme text-custom-white hover:text-white md:text-lg text-base w-36 p-3 rounded-xl font-[Montserrat]">
+              <button className="mt-8 bg-custom-theme hover:bg-custom-darkTheme duration-200 text-custom-white hover:text-white md:text-lg text-base w-36 p-3 rounded-xl font-[Montserrat]">
                 {common[0].send[`${lng}`]}
               </button>
             </form>
           </div>
           <div className="mt-10 lg:w-1/2 w-full py-10 md:pr-10">
-            <span className="md:text-3xl text-2xl font-[Montserrat]">
+            <span className="md:text-3xl text-2xl font-[Montserrat] font-medium">
               {common[0].info[`${lng}`]}
             </span>
             <div className="flex lg:flex-col flex-wrap">
               <div className="mt-8 md:text-xl text-lg mr-10 lg:mr-0">
-                <div className="flex items-center">
+                <div className="text-custom-theme flex items-center">
                   <ion-icon name="location-outline"></ion-icon>
-                  <span className="ml-5 font-[Montserrat]">
+                  <span className="text-custom-desc ml-5 font-[Montserrat]">
                     Atatürk Caddesi - İstanbul
                   </span>
                 </div>
-                <div className="mt-3 flex items-center">
+                <div className="text-custom-theme mt-3 flex items-center">
                   <ion-icon name="call-outline"></ion-icon>
-                  <span className="ml-5 font-[Montserrat]">0212 444 0 444</span>
+                  <span className="text-custom-desc ml-5 font-[Montserrat]">0212 444 0 444</span>
                 </div>
-                <div className="mt-3 flex items-center">
+                <div className="text-custom-theme mt-3 flex items-center">
                   <ion-icon name="mail-outline"></ion-icon>
-                  <span className="ml-5 font-[Montserrat]">demo@demo.com</span>
+                  <span className="text-custom-desc ml-5 font-[Montserrat]">demo@demo.com</span>
                 </div>
               </div>
               <div className="mt-8">
-                <span className="md:text-2xl text-xl font-[Montserrat]">
+                <span className="md:text-2xl text-xl font-[Montserrat] font-medium">
                   {common[0].social[`${lng}`]}
                 </span>
                 <div className="mt-5 text-4xl">

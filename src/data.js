@@ -233,12 +233,12 @@ export const products = [
     types: [
       {
         name: {
-          tr: "Güneş Kırıcı",
-          en: "Sun breaker",
-          de: "Sonnenbrecher",
+          tr: "Güneş Kırıcı Sisteler",
+          en: "Solar Shading Systems",
+          de: "Sonnenschutzsysteme",
         },
         img: "/assets/products/aluminyum/guneskirici/7.jpg",
-        url: "gunes-kirici",
+        url: "gunes-kirici-sistemler",
         images: [
           {
             src: "/assets/products/aluminyum/guneskirici/7.jpg",
@@ -250,12 +250,12 @@ export const products = [
       },
       {
         name: {
-          tr: "Kapı",
-          en: "Door",
-          de: "Tür",
+          tr: "Alüminyum Kapı",
+          en: "Aluminum Door",
+          de: "Aluminiumtür",
         },
         img: "/assets/products/aluminyum/kapi/1.jpg",
-        url: "kapi",
+        url: "aluminyum-kapi",
         images: [
           {
             src: "/assets/products/aluminyum/kapi/1.jpg",
@@ -279,12 +279,12 @@ export const products = [
       },
       {
         name: {
-          tr: "Pencere",
-          en: "Window",
-          de: "Fenster",
+          tr: "Alüminyum Pencere",
+          en: "Aluminum Window",
+          de: "Aluminiumfenster",
         },
         img: "/assets/products/aluminyum/pencere/8.jpg",
-        url: "pencere",
+        url: "aluminyum-pencere",
         images: [
           {
             src: "/assets/products/aluminyum/pencere/8.jpg",
@@ -307,12 +307,12 @@ export const products = [
     types: [
       {
         name: {
-          tr: "Pencere",
-          en: "Window",
-          de: "Fenster",
+          tr: "PVC Pencere",
+          en: "PVC Window",
+          de: "PVC Fenster",
         },
         img: "/assets/products/pvc/pencere/1.jpg",
-        url: "pencere",
+        url: "pvc-pencere",
         images: [
           {
             src: "/assets/products/pvc/pencere/1.jpg",
@@ -381,12 +381,12 @@ export const products2 = [
   },
   {
     name: {
-      tr: "Cam ve Korkuluk",
-      en: "Glass and Railing",
-      de: "Glas und Geländer",
+      tr: "Cam ve Korkuluk Sistemleri",
+      en: "Glass and Railing Systems",
+      de: "Glas- und Geländersysteme",
     },
     img: "/assets/products/camVeKorkuluk/4.jpg",
-    url: "cam-ve-korkuluk",
+    url: "cam-ve-korkuluk-sistemleri",
     images: [
       {
         src: "/assets/products/camVeKorkuluk/1.jpg",
@@ -404,12 +404,12 @@ export const products2 = [
   },
   {
     name: {
-      tr: "Fotoselli Kapı",
-      en: "Photocell Door",
-      de: "Lichtschrankentür",
+      tr: "Fotoselli Kapı Sistemleri",
+      en: "Photocell Door Systems",
+      de: "Lichtschranken-Türsysteme",
     },
     img: "/assets/products/fotoselliKapi/2.jpg",
-    url: "fotoselli-kapi",
+    url: "fotoselli-kapi-sistemleri",
     images: [
       {
         src: "/assets/products/fotoselliKapi/1.jpg",
@@ -444,12 +444,12 @@ export const products2 = [
   },
   {
     name: {
-      tr: "Panjur",
-      en: "Blinds",
-      de: "Jalousie",
+      tr: "Panjur ve Kepenk Sistemleri",
+      en: "Shutter Systems",
+      de: "Rollladensysteme",
     },
     img: "/assets/products/panjur/1.jpg",
-    url: "panjur",
+    url: "panjur-ve-kepenk-sistemleri",
     images: [
       {
         src: "/assets/products/panjur/1.jpg",

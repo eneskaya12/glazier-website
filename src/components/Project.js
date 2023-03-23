@@ -11,13 +11,13 @@ function Project({ project }) {
       <Link to={`/projects/${project.url}`}>
         <div>
           <img
-            className="sm:w-96 sm:h-80 object-cover"
+            className="w-96 h-80 object-cover"
             src={project.img}
             alt=""
           />
         </div>
         <div className="bg-white w-full flex text-center justify-center p-5">
-          <span className="text-slate-500 md:text-2xl text-base font-medium font-[Montserrat]">
+          <span className="text-slate-500 md:text-2xl sm:text-xl text-lg font-medium font-[Montserrat]">
             {project.name[`${lng}`]}
           </span>
         </div>
