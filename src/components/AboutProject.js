@@ -22,11 +22,11 @@ function AboutProject() {
           </span>
         </div>
         <div className="mt-10 h-auto w-full flex flex-col lg:flex-row justify-center items-center lg:items-start">
-          <div className="lg:w-1/2 p-5 flex justify-center">
-            <img className="h-96 object-cover" src={project.img} alt="" />
+          <div className="lg:w-1/2 md:p-5 flex justify-center">
+            <img className="md:h-96 h-72 object-cover" src={project.img} alt="" />
           </div>
-          <div className="lg:w-1/2 p-5 lg:pr-20 flex flex-col">
-            <span className="mb-20 md:text-3xl text-2xl font-[Montserrat]">{project.name[`${lng}`]}</span>
+          <div className="lg:w-1/2 md:p-5 md:mt-0 mt-5 lg:pr-20 flex flex-col">
+            <span className="md:mb-20 mb-10 md:text-3xl text-2xl font-[Montserrat]">{project.name[`${lng}`]}</span>
             <span className="text-custom-desc md:text-xl text-base leading-8 font-[Bitter]">{project.desc[`${lng}`]}</span>
           </div>
         </div>

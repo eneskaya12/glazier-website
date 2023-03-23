@@ -22,7 +22,7 @@ function ProductPage() {
     <div>
       <Topbar />
       <div className="py-20 md:px-5 px-2 bg-slate-200 flex justify-center selection:bg-custom-theme selection:text-custom-white">
-        <div className="max-w-screen-xl">
+        <div className="max-w-screen-xl w-full">
           <div className="flex flex-col mb-10 border-l-4 pl-3 border-custom-theme">
             <span className="text-custom-title md:text-xl text-lg font-medium font-[Montserrat]">
               {common[0].glass[`${lng}`]}

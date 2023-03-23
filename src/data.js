@@ -151,44 +151,72 @@ export const common = [
 export const projects = [
   {
     name: {
-      tr: "Üçgen Kulübe",
-      en: "Triangle Hut",
-      de: "Dreieckshütte",
+      tr: "Alüminyum",
+      en: "Aluminum",
+      de: "Aluminium",
     },
-    img: "https://woodenhousebursa.com/wp-content/uploads/2022/09/Ucgen-Evler-111.jpg",
-    url: "ucgen-kulube",
+    img: "/assets/projects/aluminyum/1.jpg",
+    url: "aluminyum",
     desc: {
-      tr: "Bu çalışmamızda üçgen bir kulübenin tüm cam işlerini yaptık. Geri kalan işleri de yakın arkadaşımız olan bir ahşap ustası yaptı. Projenin son halinden oldukça memnunuz. Müşterilerimiz de son halini çok sevdi.",
-      en: "In this work, we have done all the glass work of a triangular hut. A woodworker, a close friend of ours, did the rest of the work. We are very satisfied with the final version of the project. Our customers also loved the final version.",
-      de: "In dieser Arbeit haben wir alle Glasarbeiten einer dreieckigen Hütte durchgeführt. Ein Tischler, ein enger Freund von uns, erledigte den Rest der Arbeit. Mit der Endfassung des Projekts sind wir sehr zufrieden. Unsere Kunden waren auch von der endgültigen Version begeistert.",
+      tr: "Alüminyum projesi güzeldi. Katılan tüm çalışanlar için keyifliydi. Herkes unutamayacağı dolu dolu anlar yaşadı.",
+      en: "The aluminum project was beautiful. It was enjoyable for all the employees involved. Everyone had unforgettable moments.",
+      de: "Das Aluminiumprojekt war wunderschön. Es hat allen beteiligten Mitarbeitern Spaß gemacht. Alle hatten unvergessliche Momente.",
     },
   },
   {
     name: {
-      tr: "Cam Piramit",
-      en: "Glass Pyramid",
-      de: "Glaspyramide",
+      tr: "Cam Balkon",
+      en: "Glass Balcony",
+      de: "Balkon aus Glas",
     },
-    img: "https://www.diken.com.tr/wp-content/uploads/2019/05/louvrepiramid.jpg",
-    url: "cam-piramit",
+    img: "/assets/projects/camBalkon/2.jpg",
+    url: "cam-balkon",
     desc: {
-      tr: "Bu çalışmamızda bir müzenin isteği üzerine camdan büyük bir piramit yaptık. Estetik durması açısından ışıklandırma konusunda elektirikçi arkadaşımızdan yardım aldık. Sonuç gayet tatmin edici. Ayrıca müzze sakinleri de sevdi.",
-      en: "In this work, we built a large pyramid made of glass at the request of a museum. We got help from our electrician friend for lighting in terms of aesthetics. The result is quite satisfactory. Also, the residents of the museum loved it.",
-      de: "In dieser Arbeit haben wir im Auftrag eines Museums eine große Pyramide aus Glas gebaut. Wir haben uns von unserem befreundeten Elektriker für Beleuchtung in Sachen Ästhetik helfen lassen. Das Ergebnis ist durchaus zufriedenstellend. Auch die Bewohner des Museums waren begeistert.",
+      tr: "Cam balkon projesinde cam balkon yaptık. Aslında balkonlar yapılmış oluyor genelde. Biz sadece üzerinde geliştirme yapıp cam balkon haline getiriyoruz.",
+      en: "We made a glass balcony in the glass balcony project. In fact, balconies are usually built. We only develop it and turn it into a glass balcony.",
+      de: "Wir haben einen Glasbalkon im Glasbalkonprojekt gemacht. Tatsächlich werden Balkone normalerweise gebaut. Wir entwickeln es nur und verwandeln es in einen gläsernen Balkon.",
     },
   },
   {
     name: {
-      tr: "Stark Kulesi",
-      en: "Stark Tower",
-      de: "Starker Turm",
+      tr: "Kış Bahçesi",
+      en: "Winter Garden",
+      de: "Wintergarten",
     },
-    img: "https://mir-s3-cdn-cf.behance.net/projects/404/52027555367481.Y3JvcCwyMDY4LDE2MTgsMCwzNTI.jpg",
-    url: "stark-kulesi",
+    img: "/assets/projects/kisBahcesi/2.jpg",
+    url: "kis-bahcesi",
     desc: {
-      tr: "Bu çalışmamızda Tony Stark'ın isteği doğrultusunda binasının tüm cam işçiliğini biz yaptık. Yaparken çok eğlendik, çok keyifliydi. Tony Stark da sonuçtan oldukça memnun. Şehre uyumlu olmakla birlikte çok modern bir hal aldı bina.",
-      en: "In this work, we did all the glasswork of the building in line with Tony Stark's request. We had a lot of fun doing it, it was very enjoyable. Tony Stark is also quite happy with the result. The building has become very modern while being in harmony with the city.",
-      de: "Bei dieser Arbeit haben wir alle Glasarbeiten des Gebäudes im Einklang mit Tony Starks Wunsch ausgeführt. Wir hatten viel Spaß dabei, es war sehr angenehm. Auch Tony Stark ist mit dem Ergebnis recht zufrieden. Das Gebäude ist sehr modern geworden und fügt sich harmonisch in die Stadt ein.",
+      tr: "Kış bahçesi projemizde kış bahçesi inşa ettik. Çok eğlendik, çok keyifli bir projeydi. Müşterimiz de son derece memnun kaldı.",
+      en: "We built a winter garden in our winter garden project. We had a lot of fun, it was a very enjoyable project. Our customer was also extremely satisfied.",
+      de: "Wir haben in unserem Wintergartenprojekt einen Wintergarten gebaut. Wir hatten viel Spaß, es war ein sehr angenehmes Projekt. Auch unser Kunde war sehr zufrieden.",
+    },
+  },
+  {
+    name: {
+      tr: "Panjur",
+      en: "Blinds",
+      de: "Jalousie",
+    },
+    img: "/assets/projects/panjur/1.jpg",
+    url: "panjur",
+    desc: {
+      tr: "Panjur projemizde panjur yaptık. Keyifliydi, gayet de eğlendik yaparken.",
+      en: "We made blinds in our blinds project. It was fun, we had a lot of fun while doing it.",
+      de: "Wir haben Jalousien in unserem Jalousienprojekt hergestellt. Es hat Spaß gemacht, wir hatten viel Spaß dabei.",
+    },
+  },
+  {
+    name: {
+      tr: "PVC",
+      en: "PVC",
+      de: "PVC",
+    },
+    img: "/assets/projects/pvc/1.jpg",
+    url: "pvc",
+    desc: {
+      tr: "PVC projemizde tim emin ihtiyaçkarını PVC ile kapattık. Sonuç gayet tatmin ediciydi. Müşterimiz de sonuçtan gayet memnndu.",
+      en: "In our PVC project, the team is sure to cover their needs with PVC. The result was quite satisfactory. Our customer was also very satisfied with the result.",
+      de: "In unserem PVC-Projekt ist das Team sicher, seinen Bedarf mit PVC zu decken. Das Ergebnis war durchaus zufriedenstellend. Auch unser Kunde war mit dem Ergebnis sehr zufrieden.",
     },
   },
 ];
@@ -196,132 +224,126 @@ export const projects = [
 export const products = [
   {
     name: {
-      tr: "Surmeli Cam Sistemleri",
-      en: "Sliding Glass Systems",
-      de: "Glasschiebesysteme",
+      tr: "Alüminyum",
+      en: "Aluminum",
+      de: "Aluminium",
     },
-    img: "https://elizcam.com.tr/wp-content/uploads/2023/01/Mask-group-7-1-466x393.jpg",
-    url: "surmeli-cam-sistemleri",
+    img: "/assets/products/aluminyum/0.jpg",
+    url: "aluminyum",
     types: [
       {
         name: {
-          tr: "Isıcamlı Sürme Cam Sistemleri",
-          en: "Insulating Glass Sliding Glass Systems",
-          de: "Isolierglas Schiebeglassysteme",
+          tr: "Güneş Kırıcı",
+          en: "Sun breaker",
+          de: "Sonnenbrecher",
         },
-        img: "https://elizcam.com.tr/wp-content/uploads/2023/01/tek-camli.jpg",
-        url: "isicamli-surme-cam-sistemleri",
-        desc: {
-          tr: "Yatay bir şekilde hareket eden camları sayesinde uygulandığı alanlarda daralmaya imkân vermeyen tasarımıyla Slideterm, isteğe bağlı eşikli ya da eşiksiz olarak dizayn edilebilir bir tasarıma sahiptir. Kanat profillerinde bulunan kıl fitil ve pvc fitil kanalları sayesinde ısı ve ses yalıtımı sağlayan Slideterm, kanatlarının bağımsız hareketi sayesinde kolay temizlik imkânı da sunar",
-          en: "Slideterm can be designed with or without threshold, with its design that does not allow narrowing in the areas where it is applied thanks to its glasses that move horizontally. Slideterm, which provides heat and sound insulation thanks to the bristle wick and PVC wick channels in the wing profiles, also offers easy cleaning thanks to the independent movement of its wings.",
-          de: "Slideterm kann mit oder ohne Schwelle entworfen werden, mit seinem Design, das dank seiner horizontal beweglichen Gläser keine Verengung in den Bereichen zulässt, in denen es angebracht wird. Slideterm, das dank Borstendocht und PVC-Dochtkanälen in den Flügelprofilen für Wärme- und Schalldämmung sorgt, bietet außerdem eine einfache Reinigung dank der unabhängigen Bewegung seiner Flügel.",
-        },
+        img: "/assets/products/aluminyum/guneskirici/7.jpg",
+        url: "gunes-kirici",
+        images: [
+          {
+            src: "/assets/products/aluminyum/guneskirici/7.jpg",
+          },
+          {
+            src: "/assets/products/aluminyum/guneskirici/8.png",
+          },
+        ],
       },
       {
         name: {
-          tr: "Çerçevesiz Sürme Cam Sistemleri",
-          en: "Frameless Sliding Glass Systems",
-          de: "Rahmenlose Glasschiebesysteme",
+          tr: "Kapı",
+          en: "Door",
+          de: "Tür",
         },
-        img: "https://elizcam.com.tr/wp-content/uploads/2023/01/Euroslide.jpg",
-        url: "cercevesiz-surme-cam-sistemleri",
-        desc: {
-          tr: "Sürme Cam Sistemi, yatay doğrultuda kayar şeklide hareket eden kanatlardan oluşmaktadır. Sistem uzunluğuna göre 3’lü, 4’lü ve 5’li ray detaylarına göre üretilmektedir. Sistemde 10mm temperli cam kullanılmaktadır. Sistemde yağmur ve yoğuşma sonucu oluşabilecek su, sistemin alt rayına entegre edilmiş drenaj kanallarından dışarı tahliye edilir. Kanatlar arası dikey doğrultuda alüminyum profilleri ve yalıtım fitilleri olmadığından yalıtımı standart sistemlere göre alt seviyededir. Sistemin her kanadında, kanadın sessiz ve rahat çalışabilmesi için yüksek kalitede üretilen tek rulmanlı ve yükseklik ayarı yapılabilen 2 adet teker takımı kullanılmaktadır.",
-          en: "The Sliding Glass System consists of wings that move in a sliding manner in the horizontal direction. According to the system length, it is produced according to the details of 3, 4 and 5 rails. 10mm tempered glass is used in the system. The water that may occur in the system as a result of rain and condensation is discharged out of the drainage channels integrated in the lower rail of the system. Since there are no aluminum profiles and insulation wicks in the vertical direction between the wings, its insulation is lower than standard systems. In each wing of the system, 2 wheel sets with high quality single bearing and height adjustment are used in order for the wing to operate quietly and comfortably.",
-          de: "Das Sliding Glass System besteht aus Flügeln, die sich gleitend in horizontaler Richtung bewegen. Je nach Systemlänge wird es nach den Angaben von 3, 4 und 5 Schienen gefertigt. Im System wird 10 mm gehärtetes Glas verwendet. Das durch Regen und Kondenswasser eventuell im System anfallende Wasser wird über die in der unteren Schiene des Systems integrierten Ablaufrinnen abgeführt. Da in vertikaler Richtung zwischen den Flügeln keine Aluminiumprofile und Isolierdochte vorhanden sind, ist seine Isolierung geringer als bei Standardsystemen. In jedem Flügel der Anlage kommen 2 Radsätze mit hochwertiger Einzellagerung und Höhenverstellung zum Einsatz, damit der Flügel leise und komfortabel läuft.",
-        },
+        img: "/assets/products/aluminyum/kapi/1.jpg",
+        url: "kapi",
+        images: [
+          {
+            src: "/assets/products/aluminyum/kapi/1.jpg",
+          },
+          {
+            src: "/assets/products/aluminyum/kapi/2.jpg",
+          },
+          {
+            src: "/assets/products/aluminyum/kapi/3.jpg",
+          },
+          {
+            src: "/assets/products/aluminyum/kapi/4.jpg",
+          },
+          {
+            src: "/assets/products/aluminyum/kapi/5.jpg",
+          },
+          {
+            src: "/assets/products/aluminyum/kapi/6.jpg",
+          },
+        ],
       },
       {
         name: {
-          tr: "Tek Camlı Sürme Cam Sistemleri",
-          en: "Single Glazing Sliding Glass Systems",
-          de: "Einfach verglaste Glasschiebesysteme",
+          tr: "Pencere",
+          en: "Window",
+          de: "Fenster",
         },
-        img: "https://elizcam.com.tr/wp-content/uploads/2023/01/tek-camli.jpg",
-        url: "tek-camli-surme-cam-sistemleri",
-        desc: {
-          tr: "Yaşam alanlarına modern ve estetik çözümler sunan Slidetech, eşikli yapısı ile ısı ve ses yalıtımı sunarken eşiksiz yapısıyla da geçiş konforu sağlar. Kasa üzerinde bulunan rayları ve bu rayların üzerinde yer alan camların ilerlemesiyle çalışan Slidetech, panoramik görüntüyü kapatmadan en az sürtünme ve ses ile açılır kapanır. Aynı zamanda kilitli yapısıyla güvenli yaşam alanları oluşturur.",
-          en: "Offering modern and aesthetic solutions to living spaces, Slidetech offers heat and sound insulation with its silled structure and provides transition comfort with its unsill structure. Working with the rails on the chassis and the progress of the glasses on these rails, Slidetech opens and closes with the least friction and sound without closing the panoramic view. At the same time, it creates safe living spaces with its locked structure.",
-          de: "Slidetech bietet moderne und ästhetische Lösungen für Wohnräume, bietet mit seiner silled-Struktur Wärme- und Schalldämmung und bietet mit seiner silled-Struktur Übergangskomfort. Slidetech arbeitet mit den Schienen am Chassis und dem Fortschritt der Gläser auf diesen Schienen und öffnet und schließt mit der geringsten Reibung und dem geringsten Geräusch, ohne den Panoramablick zu schließen. Gleichzeitig schafft es mit seiner geschlossenen Struktur sichere Lebensräume.",
-        },
+        img: "/assets/products/aluminyum/pencere/8.jpg",
+        url: "pencere",
+        images: [
+          {
+            src: "/assets/products/aluminyum/pencere/8.jpg",
+          },
+          {
+            src: "/assets/products/aluminyum/pencere/9.jpg",
+          },
+        ],
       },
     ],
   },
   {
     name: {
-      tr: "Katlanır Cam Sistemleri",
-      en: "Folding Glass Systems",
-      de: "Faltbare Glassysteme",
+      tr: "PVC",
+      en: "PVC",
+      de: "PVC",
     },
-    img: "https://elizcam.com.tr/wp-content/uploads/2023/01/Mask-group-6-1-466x393.jpg",
-    url: "katlanir-cam-sistemleri",
+    img: "/assets/products/pvc/0.jpg",
+    url: "pvc",
     types: [
       {
         name: {
-          tr: "Tek Camlı Katlanır Cam Sistemleri",
-          en: "Single Glazed Folding Glass Systems",
-          de: "Einfach verglaste Faltglassysteme",
+          tr: "Pencere",
+          en: "Window",
+          de: "Fenster",
         },
-        img: "https://elizcam.com.tr/wp-content/uploads/2023/01/fold-k.jpg",
-        url: "tek-camli-katlanir-cam-sistemleri",
-        desc: {
-          tr: "Kullanıcı deneyimi esas alınarak tasarlanan Foldtech, yağmur, çamur ve toz gibi olumsuz hava koşullarına karşı uygulandığı her alanda yüksek koruma sağlar ve içeriye katlanabilen kanatları sayesinde kolay temizlenir.  Her alana rahatlıkla uygulanabilen yapısıyla Foldtech, temperli camları ile güvenli bir ortam oluştururken aynı zamanda su ve rüzgâr izolasyonu da sağlar.",
-          en: "Designed on the basis of user experience, Foldtech provides high protection in all areas where it is applied against adverse weather conditions such as rain, mud and dust, and is easy to clean thanks to its foldable wings. With its structure that can be easily applied to any area, Foldtech creates a safe environment with its tempered glasses, while also providing water and wind insulation.",
-          de: "Auf der Grundlage von Benutzererfahrungen entwickelt, bietet Foldtech in allen Anwendungsbereichen einen hohen Schutz vor widrigen Wetterbedingungen wie Regen, Schlamm und Staub und ist dank seiner faltbaren Flügel leicht zu reinigen. Mit seiner Struktur, die sich leicht auf jeden Bereich auftragen lässt, schafft Foldtech mit seinen gehärteten Gläsern eine sichere Umgebung und bietet gleichzeitig Wasser- und Windisolierung.",
-        },
+        img: "/assets/products/pvc/pencere/1.jpg",
+        url: "pencere",
+        images: [
+          {
+            src: "/assets/products/pvc/pencere/1.jpg",
+          },
+          {
+            src: "/assets/products/pvc/pencere/2.jpg",
+          },
+          {
+            src: "/assets/products/pvc/pencere/3.jpg",
+          },
+          {
+            src: "/assets/products/pvc/pencere/4.jpg",
+          },
+        ],
       },
       {
         name: {
-          tr: "Isıcamlı Katlanır Cam Sistemleri",
-          en: "Insulating Glass Folding Glass Systems",
-          de: "Isolierglas Faltglassysteme",
+          tr: "HBŞB",
+          en: "HBSB",
+          de: "HBSB",
         },
-        img: "https://elizcam.com.tr/wp-content/uploads/2023/01/Euroslide.jpg",
-        url: "isicamli-katlanir-cam-sistemleri",
-        desc: {
-          tr: "Eliz Cam Sistemleri’nin gelişmiş teknik donanımlarıyla tasarlanan ve üretilen Foldterm, her yapıya kusursuz uyum sağlar. Tasarımında bulundurduğu kauçuk fitilleriyle sızdırmazlığı ve hava geçişini minimuma indiren Foldterm, uygulandığı her alanı olumsuz hava koşullarından korur ve güvenli bir yaşam alanı oluşturur.",
-          en: "Designed and produced with the advanced technical equipment of Eliz Cam Systems, Foldterm fits perfectly into every structure. Foldterm, which minimizes sealing and air passage with the rubber wicks in its design, protects every area it is applied from adverse weather conditions and creates a safe living space.",
-          de: "Entworfen und produziert mit der fortschrittlichen technischen Ausstattung von Eliz Cam Systems, fügt sich Foldterm perfekt in jede Struktur ein. Foldterm, das mit den Gummidochten in seinem Design die Abdichtung und den Luftdurchgang minimiert, schützt jeden Bereich, in dem es angebracht wird, vor widrigen Wetterbedingungen und schafft einen sicheren Lebensraum.",
-        },
-      },
-    ],
-  },
-  {
-    name: {
-      tr: "Kış Bahçesi Sistemleri",
-      en: "Winter Garden Systems",
-      de: "Wintergartensysteme",
-    },
-    img: "https://elizcam.com.tr/wp-content/uploads/2023/01/Mask-group-4-1-466x393.jpg",
-    url: "kis-bahcesi-sistemleri",
-    types: [
-      {
-        name: {
-          tr: "Tek Camlı Kış Bahçesi Sistemleri",
-          en: "Single Glazed Winter Garden Systems",
-          de: "Einfach verglaste Wintergartensysteme",
-        },
-        img: "https://elizcam.com.tr/wp-content/uploads/2023/01/wingar-k.jpg",
-        url: "tek-camli-kis-bahcesi-sistemleri",
-        desc: {
-          tr: "Dış yaşam alanlarını dört mevsim kullanmak isteyenler için özel olarak tasarlanmış olan Wingartech, estetik duruşu ve uzun ömürlü yapısıyla uygulandığı her alana değer katar. Her türlü hava koşulana karşı dış yaşam alanlarında koruma sağlayan Wingartech; sürme, giyotin veya katlanır cam sistemleriyle de tamamlanabilmektedir.",
-          en: "Specially designed for those who want to use their outdoor living spaces in four seasons, Wingartech adds value to every area where it is applied with its aesthetic stance and long-lasting structure. Wingartech, which provides protection in outdoor living spaces against all kinds of weather conditions; It can also be completed with sliding, guillotine or folding glass systems.",
-          de: "Wingartech wurde speziell für diejenigen entwickelt, die ihre Lebensräume im Freien in vier Jahreszeiten nutzen möchten, und wertet jeden Bereich auf, in dem es mit seiner ästhetischen Haltung und seiner langlebigen Struktur verwendet wird. Wingartech, das Wohnräume im Freien vor Witterungseinflüssen aller Art schützt; Es kann auch mit Schiebe-, Guillotine- oder Faltglassystemen ergänzt werden.",
-        },
-      },
-      {
-        name: {
-          tr: "Isıcamlı Kış Bahçesi Sistemleri",
-          en: "Insulating Glass Winter Garden Systems",
-          de: "Isolierglas Wintergartensysteme",
-        },
-        img: "https://elizcam.com.tr/wp-content/uploads/2023/01/wingar-k.jpg",
-        url: "isicamli-kis-bahcesi-sistemleri",
-        desc: {
-          tr: "Yeni bir yaşam alanı oluşturmak isteyenler için her detayı incelikle düşünülerek tasarlanan Wingarterm, güneş ışınlarının etkisini azaltmak için tavanda nitelikli ısıcam olarak kullanılmaktadır. Lamine cam yapısı sayesinde kırılmalara karşı dayanıklı olan Wingarterm güvenli bir ortam oluşturur. Wingarterm ihtiyaçlarınıza göre sürme, giyotin ya da katlanır cam sistemleriyle tamamlanabilmektedir.",
-          en: "Wingarterm, designed with every detail in mind for those who want to create a new living space, is used as a qualified double glazing on the ceiling to reduce the effect of sun rays. Thanks to its laminated glass structure, Wingarterm is resistant to breakage and creates a safe environment. Wingarterm can be completed with sliding, guillotine or folding glass systems according to your needs.",
-          de: "Wingarterm, das bis ins kleinste Detail für diejenigen entworfen wurde, die einen neuen Wohnraum schaffen möchten, wird als qualifizierte Doppelverglasung an der Decke verwendet, um die Wirkung von Sonnenstrahlen zu reduzieren. Dank seiner laminierten Glasstruktur ist Wingarterm bruchfest und schafft eine sichere Umgebung. Wingarterm kann je nach Bedarf mit Schiebe-, Guillotine- oder Faltglassystemen ergänzt werden.",
-        },
+        img: "/assets/products/pvc/hbsb/1.jpg",
+        url: "hbsb",
+        images: [
+          {
+            src: "/assets/products/pvc/hbsb/1.jpg",
+          },
+          {
+            src: "/assets/products/pvc/hbsb/2.jpeg",
+          },
+        ],
       },
     ],
   },
@@ -330,58 +352,154 @@ export const products = [
 export const products2 = [
   {
     name: {
-      tr: "araba",
-      en: "araba-en",
-      de: "araba-de",
+      tr: "Cam Balkon",
+      en: "Glass Balcony",
+      de: "Balkon aus Glas",
     },
-    img: "https://elizcam.com.tr/wp-content/uploads/2023/01/Mask-group-7-1-466x393.jpg",
-    url: "araba",
-    desc: {
-      tr: "Yeni bir yaşam alanı oluşturmak isteyenler için her detayı incelikle düşünülerek tasarlanan Wingarterm, güneş ışınlarının etkisini azaltmak için tavanda nitelikli ısıcam olarak kullanılmaktadır. Lamine cam yapısı sayesinde kırılmalara karşı dayanıklı olan Wingarterm güvenli bir ortam oluşturur. Wingarterm ihtiyaçlarınıza göre sürme, giyotin ya da katlanır cam sistemleriyle tamamlanabilmektedir.",
-      en: "Wingarterm, designed with every detail in mind for those who want to create a new living space, is used as a qualified double glazing on the ceiling to reduce the effect of sun rays. Thanks to its laminated glass structure, Wingarterm is resistant to breakage and creates a safe environment. Wingarterm can be completed with sliding, guillotine or folding glass systems according to your needs.",
-      de: "Wingarterm, das bis ins kleinste Detail für diejenigen entworfen wurde, die einen neuen Wohnraum schaffen möchten, wird als qualifizierte Doppelverglasung an der Decke verwendet, um die Wirkung von Sonnenstrahlen zu reduzieren. Dank seiner laminierten Glasstruktur ist Wingarterm bruchfest und schafft eine sichere Umgebung. Wingarterm kann je nach Bedarf mit Schiebe-, Guillotine- oder Faltglassystemen ergänzt werden.",
-    },
+    img: "/assets/products/camBalkon/1.jpg",
+    url: "cam-balkon",
+    images: [
+      {
+        src: "/assets/products/camBalkon/1.jpg",
+      },
+      {
+        src: "/assets/products/camBalkon/2.jpg",
+      },
+      {
+        src: "/assets/products/camBalkon/3.jpg",
+      },
+      {
+        src: "/assets/products/camBalkon/4.jpg",
+      },
+      {
+        src: "/assets/products/camBalkon/5.jpg",
+      },
+      {
+        src: "/assets/products/camBalkon/6.jpg",
+      },
+    ],
   },
   {
     name: {
-      tr: "ucak",
-      en: "ucak-en",
-      de: "ucak-de",
+      tr: "Cam ve Korkuluk",
+      en: "Glass and Railing",
+      de: "Glas und Geländer",
     },
-    img: "https://elizcam.com.tr/wp-content/uploads/2023/01/Mask-group-7-1-466x393.jpg",
-    url: "ucak",
-    desc: {
-      tr: "Yeni bir yaşam alanı oluşturmak isteyenler için her detayı incelikle düşünülerek tasarlanan Wingarterm, güneş ışınlarının etkisini azaltmak için tavanda nitelikli ısıcam olarak kullanılmaktadır. Lamine cam yapısı sayesinde kırılmalara karşı dayanıklı olan Wingarterm güvenli bir ortam oluşturur. Wingarterm ihtiyaçlarınıza göre sürme, giyotin ya da katlanır cam sistemleriyle tamamlanabilmektedir.",
-      en: "Wingarterm, designed with every detail in mind for those who want to create a new living space, is used as a qualified double glazing on the ceiling to reduce the effect of sun rays. Thanks to its laminated glass structure, Wingarterm is resistant to breakage and creates a safe environment. Wingarterm can be completed with sliding, guillotine or folding glass systems according to your needs.",
-      de: "Wingarterm, das bis ins kleinste Detail für diejenigen entworfen wurde, die einen neuen Wohnraum schaffen möchten, wird als qualifizierte Doppelverglasung an der Decke verwendet, um die Wirkung von Sonnenstrahlen zu reduzieren. Dank seiner laminierten Glasstruktur ist Wingarterm bruchfest und schafft eine sichere Umgebung. Wingarterm kann je nach Bedarf mit Schiebe-, Guillotine- oder Faltglassystemen ergänzt werden.",
-    },
+    img: "/assets/products/camVeKorkuluk/4.jpg",
+    url: "cam-ve-korkuluk",
+    images: [
+      {
+        src: "/assets/products/camVeKorkuluk/1.jpg",
+      },
+      {
+        src: "/assets/products/camVeKorkuluk/2.jpg",
+      },
+      {
+        src: "/assets/products/camVeKorkuluk/3.jpg",
+      },
+      {
+        src: "/assets/products/camVeKorkuluk/4.jpg",
+      },
+    ],
   },
   {
     name: {
-      tr: "bisiklet",
-      en: "bisiklet-en",
-      de: "bisiklet-de",
+      tr: "Fotoselli Kapı",
+      en: "Photocell Door",
+      de: "Lichtschrankentür",
     },
-    img: "https://elizcam.com.tr/wp-content/uploads/2023/01/Mask-group-7-1-466x393.jpg",
-    url: "bisiklet",
-    desc: {
-      tr: "Yeni bir yaşam alanı oluşturmak isteyenler için her detayı incelikle düşünülerek tasarlanan Wingarterm, güneş ışınlarının etkisini azaltmak için tavanda nitelikli ısıcam olarak kullanılmaktadır. Lamine cam yapısı sayesinde kırılmalara karşı dayanıklı olan Wingarterm güvenli bir ortam oluşturur. Wingarterm ihtiyaçlarınıza göre sürme, giyotin ya da katlanır cam sistemleriyle tamamlanabilmektedir.",
-      en: "Wingarterm, designed with every detail in mind for those who want to create a new living space, is used as a qualified double glazing on the ceiling to reduce the effect of sun rays. Thanks to its laminated glass structure, Wingarterm is resistant to breakage and creates a safe environment. Wingarterm can be completed with sliding, guillotine or folding glass systems according to your needs.",
-      de: "Wingarterm, das bis ins kleinste Detail für diejenigen entworfen wurde, die einen neuen Wohnraum schaffen möchten, wird als qualifizierte Doppelverglasung an der Decke verwendet, um die Wirkung von Sonnenstrahlen zu reduzieren. Dank seiner laminierten Glasstruktur ist Wingarterm bruchfest und schafft eine sichere Umgebung. Wingarterm kann je nach Bedarf mit Schiebe-, Guillotine- oder Faltglassystemen ergänzt werden.",
-    },
+    img: "/assets/products/fotoselliKapi/2.jpg",
+    url: "fotoselli-kapi",
+    images: [
+      {
+        src: "/assets/products/fotoselliKapi/1.jpg",
+      },
+      {
+        src: "/assets/products/fotoselliKapi/2.jpg",
+      },
+    ],
   },
   {
     name: {
-      tr: "kaykay",
-      en: "kaykay-en",
-      de: "kaykay-de",
+      tr: "Kış Bahçesi",
+      en: "Winter Garden",
+      de: "Wintergarten",
     },
-    img: "https://elizcam.com.tr/wp-content/uploads/2023/01/Mask-group-7-1-466x393.jpg",
-    url: "kaykay",
-    desc: {
-      tr: "Yeni bir yaşam alanı oluşturmak isteyenler için her detayı incelikle düşünülerek tasarlanan Wingarterm, güneş ışınlarının etkisini azaltmak için tavanda nitelikli ısıcam olarak kullanılmaktadır. Lamine cam yapısı sayesinde kırılmalara karşı dayanıklı olan Wingarterm güvenli bir ortam oluşturur. Wingarterm ihtiyaçlarınıza göre sürme, giyotin ya da katlanır cam sistemleriyle tamamlanabilmektedir.",
-      en: "Wingarterm, designed with every detail in mind for those who want to create a new living space, is used as a qualified double glazing on the ceiling to reduce the effect of sun rays. Thanks to its laminated glass structure, Wingarterm is resistant to breakage and creates a safe environment. Wingarterm can be completed with sliding, guillotine or folding glass systems according to your needs.",
-      de: "Wingarterm, das bis ins kleinste Detail für diejenigen entworfen wurde, die einen neuen Wohnraum schaffen möchten, wird als qualifizierte Doppelverglasung an der Decke verwendet, um die Wirkung von Sonnenstrahlen zu reduzieren. Dank seiner laminierten Glasstruktur ist Wingarterm bruchfest und schafft eine sichere Umgebung. Wingarterm kann je nach Bedarf mit Schiebe-, Guillotine- oder Faltglassystemen ergänzt werden.",
+    img: "/assets/products/kisBahcesi/1.jpg",
+    url: "kis-bahcesi",
+    images: [
+      {
+        src: "/assets/products/kisBahcesi/1.jpg",
+      },
+      {
+        src: "/assets/products/kisBahcesi/2.jpg",
+      },
+      {
+        src: "/assets/products/kisBahcesi/3.jpg",
+      },
+      {
+        src: "/assets/products/kisBahcesi/4.jpg",
+      },
+    ],
+  },
+  {
+    name: {
+      tr: "Panjur",
+      en: "Blinds",
+      de: "Jalousie",
     },
+    img: "/assets/products/panjur/1.jpg",
+    url: "panjur",
+    images: [
+      {
+        src: "/assets/products/panjur/1.jpg",
+      },
+      {
+        src: "/assets/products/panjur/2.jpg",
+      },
+      {
+        src: "/assets/products/panjur/3.jpg",
+      },
+      {
+        src: "/assets/products/panjur/4.jpg",
+      },
+    ],
   },
 ];
+
+/* 
+
+▄▀█ █▀█ █▀▀ ▄▄ █▄█ ▄▀█ █▀█ █
+█▀█ █▀▄ █▄▄ ░░ ░█░ █▀█ █▀▀ █
+
+ */
+
+/* 
+export const products = [
+  {
+    name: {
+      tr: "",
+      en: "",
+      de: "",
+    },
+    img: "",
+    url: "",
+    types: [
+      {
+        name: {
+          tr: "",
+          en: "",
+          de: "",
+        },
+        img: "",
+        url: "",
+        desc: {
+          tr: "",
+          en: "",
+          de: "",
+        },
+      },
+    ],
+  },
+];
+ */
