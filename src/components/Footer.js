@@ -64,15 +64,15 @@ function Footer() {
               </Link>
               <span className="mb-1 font-[Montserrat] flex items-center text-custom-theme font-medium">
                 <ion-icon name="location-outline"></ion-icon>
-                <span className="ml-3 text-custom-white">Atatürk Caddesi - İstanbul</span>
+                <span className="ml-3 text-custom-white">İncilipınar, 1252. Sk. No:4 - Denizli</span>
               </span>
               <span className="mb-1 font-[Montserrat] flex items-center text-custom-theme font-medium">
                 <ion-icon name="call-outline"></ion-icon>
-                <span className="ml-3 text-custom-white">0212 444 0 444</span>
+                <span className="ml-3 text-custom-white">0532 170 70 20</span>
               </span>
               <span className="mb-1 font-[Montserrat] flex items-center text-custom-theme font-medium">
                 <ion-icon name="mail-outline"></ion-icon>
-                <span className="ml-3 text-custom-white">demo@demo.com</span>
+                <span className="ml-3 text-custom-white">arcyapi@hotmail.com</span>
                  
               </span>
             </div>
@@ -81,21 +81,15 @@ function Footer() {
           <div className="text-3xl flex flex-wrap justify-center h-1/2">
             <a
               className="mt-5 mr-3 h-9 hover:text-custom-theme text-custom-white duration-200"
-              href="/#"
+              href="https://instagram.com/ramazancal84?igshid=YmMyMTA2M2Y="
             >
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
             <a
               className="mt-5 mr-3 h-9 hover:text-custom-theme text-custom-white duration-200"
-              href="/#"
+              href="https://www.facebook.com/profile.php?id=100009592010939&mibextid=ZbWKwL"
             >
               <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-            <a
-              className="mt-5 mr-3 h-9 hover:text-custom-theme text-custom-white duration-200"
-              href="/#"
-            >
-              <ion-icon name="logo-twitter"></ion-icon>
             </a>
           </div>
         </div>

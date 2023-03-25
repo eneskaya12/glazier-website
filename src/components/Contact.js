@@ -1,12 +1,20 @@
 import { useTranslation } from "react-i18next";
 import { common } from "../data";
 import emailjs from "@emailjs/browser";
-import { useRef } from "react";
+import { useRef, useState } from "react";
+
+const Result = () => {
+  let lng = localStorage.getItem("i18nextLng");
+
+  return <p>{common[0].submitted[`${lng}`]}</p>;
+};
 
 function Contact() {
   const serviceId = process.env.REACT_APP_SERVICE_ID;
   const templateId = process.env.REACT_APP_TEMPLATE_ID;
   const publicKey = process.env.REACT_APP_PUBLIC_KEY;
+
+  const [result, setResult] = useState(false);
 
   useTranslation();
 
@@ -15,22 +23,21 @@ function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm(
-        serviceId,
-        templateId,
-        form.current,
-        publicKey
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm(serviceId, templateId, form.current, publicKey).then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
+    e.target.reset();
+    setResult(true);
   };
+
+  setTimeout(() => {
+    setResult(false);
+  }, 3000);
 
   return (
     <div className="py-20 md:px-5 px-2 bg-custom-section1 flex justify-center selection:bg-custom-theme selection:text-custom-white">
@@ -64,30 +71,37 @@ function Contact() {
                 type="text"
                 name="name"
                 placeholder={common[0].name[`${lng}`]}
+                required
               />
               <input
                 className="mt-8 h-10 md:text-lg text-base p-3 pl-4 outline-custom-theme rounded-xl font-[Montserrat]"
                 type="email"
                 name="email"
                 placeholder={common[0].email[`${lng}`]}
+                required
               />
               <input
                 className="mt-8 h-10 md:text-lg text-base p-3 pl-4 outline-custom-theme rounded-xl font-[Montserrat]"
                 type="tel"
                 name="tel"
                 placeholder={common[0].tel[`${lng}`]}
+                required
               />
               <textarea
                 className="mt-8 h-36 max-h-64 md:text-lg text-base p-3 pl-4 focus:outline-custom-theme rounded-xl font-[Montserrat]"
                 type="textarea"
                 name="message"
                 placeholder={common[0].message[`${lng}`]}
+                required
               />
               <input
                 type="submit"
                 value={common[0].send[`${lng}`]}
                 className="cursor-pointer mt-8 bg-custom-theme hover:bg-custom-darkTheme duration-200 text-custom-white hover:text-white md:text-lg text-base w-36 p-3 rounded-xl font-[Montserrat]"
               />
+              <div className="py-5 text-lg font-[Montserrat]">
+                {result ? <Result /> : null}
+              </div>
             </form>
           </div>
           <div className="mt-10 lg:w-1/2 w-full py-10 md:pr-10">
@@ -99,19 +113,19 @@ function Contact() {
                 <div className="text-custom-theme flex items-center">
                   <ion-icon name="location-outline"></ion-icon>
                   <span className="text-custom-desc ml-5 font-[Montserrat]">
-                    Atatürk Caddesi - İstanbul
+                    İncilipınar, 1252. Sk. No:4 - Denizli
                   </span>
                 </div>
                 <div className="text-custom-theme mt-3 flex items-center">
                   <ion-icon name="call-outline"></ion-icon>
                   <span className="text-custom-desc ml-5 font-[Montserrat]">
-                    0212 444 0 444
+                    0532 170 70 20
                   </span>
                 </div>
                 <div className="text-custom-theme mt-3 flex items-center">
                   <ion-icon name="mail-outline"></ion-icon>
                   <span className="text-custom-desc ml-5 font-[Montserrat]">
-                    demo@demo.com
+                    arcyapi@hotmail.com
                   </span>
                 </div>
               </div>
@@ -122,21 +136,15 @@ function Contact() {
                 <div className="mt-5 text-4xl">
                   <a
                     className="mr-5 hover:text-custom-theme duration-200"
-                    href="/#"
+                    href="https://instagram.com/ramazancal84?igshid=YmMyMTA2M2Y="
                   >
                     <ion-icon name="logo-instagram"></ion-icon>
                   </a>
                   <a
                     className="mr-5 hover:text-custom-theme duration-200"
-                    href="/#"
+                    href="https://www.facebook.com/profile.php?id=100009592010939&mibextid=ZbWKwL"
                   >
                     <ion-icon name="logo-facebook"></ion-icon>
-                  </a>
-                  <a
-                    className="mr-5 hover:text-custom-theme duration-200"
-                    href="/#"
-                  >
-                    <ion-icon name="logo-twitter"></ion-icon>
                   </a>
                 </div>
               </div>
