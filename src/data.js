@@ -145,6 +145,11 @@ export const common = [
       en: "E-Mail",
       de: "E-Mail",
     },
+    submitted: {
+      tr: "Mesaj başarıyla gönderildi.",
+      en: "Message has been successfully sent.",
+      de: "Die Nachricht wurde erfolgreich versendet.",
+    },
   },
 ];
 
@@ -274,23 +279,6 @@ export const products = [
           },
           {
             src: "/assets/products/aluminyum/kapi/6.jpg",
-          },
-        ],
-      },
-      {
-        name: {
-          tr: "Alüminyum Pencere",
-          en: "Aluminum Window",
-          de: "Aluminiumfenster",
-        },
-        img: "/assets/products/aluminyum/pencere/8.jpg",
-        url: "aluminyum-pencere",
-        images: [
-          {
-            src: "/assets/products/aluminyum/pencere/8.jpg",
-          },
-          {
-            src: "/assets/products/aluminyum/pencere/9.jpg",
           },
         ],
       },
@@ -425,7 +413,7 @@ export const products2 = [
       en: "Winter Garden",
       de: "Wintergarten",
     },
-    img: "/assets/products/kisBahcesi/1.jpg",
+    img: "/assets/products/kisBahcesi/5.jpg",
     url: "kis-bahcesi",
     images: [
       {
@@ -465,10 +453,7 @@ export const products2 = [
       },
       {
         src: "/assets/products/panjur/5.jpg",
-      },
-      {
-        src: "/assets/products/panjur/6.jpg",
-      },
+      },  
     ],
   },
 ];

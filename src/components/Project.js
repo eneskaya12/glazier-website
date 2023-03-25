@@ -16,11 +16,11 @@ function Project({ project }) {
             alt=""
           />
         </div>
-        <div className="bg-white w-full flex text-center justify-center p-5">
+        {/* <div className="bg-white w-full flex text-center justify-center p-5">
           <span className="text-slate-500 md:text-2xl sm:text-xl text-lg font-medium font-[Montserrat]">
             {project.name[`${lng}`]}
           </span>
-        </div>
+        </div> */}
       </Link>
     </div>
   );
