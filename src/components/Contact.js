@@ -1,10 +1,36 @@
 import { useTranslation } from "react-i18next";
 import { common } from "../data";
+import emailjs from "@emailjs/browser";
+import { useRef } from "react";
 
 function Contact() {
+  const serviceId = process.env.REACT_APP_SERVICE_ID;
+  const templateId = process.env.REACT_APP_TEMPLATE_ID;
+  const publicKey = process.env.REACT_APP_PUBLIC_KEY;
+
   useTranslation();
 
   let lng = localStorage.getItem("i18nextLng");
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        serviceId,
+        templateId,
+        form.current,
+        publicKey
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
   return (
     <div className="py-20 md:px-5 px-2 bg-custom-section1 flex justify-center selection:bg-custom-theme selection:text-custom-white">
@@ -32,7 +58,7 @@ function Contact() {
             <span className="md:text-3xl text-2xl font-[Montserrat] font-medium">
               {common[0].form[`${lng}`]}
             </span>
-            <form className="flex flex-col">
+            <form ref={form} className="flex flex-col" onSubmit={sendEmail}>
               <input
                 className="mt-8 h-10 md:text-lg text-base p-3 pl-4 outline-custom-theme rounded-xl font-[Montserrat]"
                 type="text"
@@ -57,9 +83,11 @@ function Contact() {
                 name="message"
                 placeholder={common[0].message[`${lng}`]}
               />
-              <button className="mt-8 bg-custom-theme hover:bg-custom-darkTheme duration-200 text-custom-white hover:text-white md:text-lg text-base w-36 p-3 rounded-xl font-[Montserrat]">
-                {common[0].send[`${lng}`]}
-              </button>
+              <input
+                type="submit"
+                value={common[0].send[`${lng}`]}
+                className="cursor-pointer mt-8 bg-custom-theme hover:bg-custom-darkTheme duration-200 text-custom-white hover:text-white md:text-lg text-base w-36 p-3 rounded-xl font-[Montserrat]"
+              />
             </form>
           </div>
           <div className="mt-10 lg:w-1/2 w-full py-10 md:pr-10">
@@ -76,11 +104,15 @@ function Contact() {
                 </div>
                 <div className="text-custom-theme mt-3 flex items-center">
                   <ion-icon name="call-outline"></ion-icon>
-                  <span className="text-custom-desc ml-5 font-[Montserrat]">0212 444 0 444</span>
+                  <span className="text-custom-desc ml-5 font-[Montserrat]">
+                    0212 444 0 444
+                  </span>
                 </div>
                 <div className="text-custom-theme mt-3 flex items-center">
                   <ion-icon name="mail-outline"></ion-icon>
-                  <span className="text-custom-desc ml-5 font-[Montserrat]">demo@demo.com</span>
+                  <span className="text-custom-desc ml-5 font-[Montserrat]">
+                    demo@demo.com
+                  </span>
                 </div>
               </div>
               <div className="mt-8">
