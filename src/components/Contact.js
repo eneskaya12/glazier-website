@@ -54,7 +54,7 @@ function Contact() {
           <iframe
             className="md:w-11/12 w-full h-96 rounded-xl"
             title="This is a unique title"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d894.1038555233266!2d39.37933086989528!3d41.0822174646982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40640dab31f580b1%3A0xbad1d9abe4dba0bc!2sBizim%20Saatci!5e0!3m2!1sen!2str!4v1679404289735!5m2!1sen!2str"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.3539584423706!2d29.10390625150867!3d37.75829787966311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c73ef0c597970d%3A0xba79f5eafca0c101!2s%C4%B0ncilip%C4%B1nar%2C%201252.%20Sk.%20No%3A4%2C%2020150%20Denizli%20Merkez%2FDenizli!5e0!3m2!1sen!2str!4v1679945163831!5m2!1sen!2str"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
