@@ -25,7 +25,7 @@ function Home() {
   window.addEventListener("scroll", handleScroll);
 
   return (
-    <div className="bg-custom-black">
+    <div className="bg-custom-white">
     {sticky && <GoTop />}
       <Topbar />
       <Header />

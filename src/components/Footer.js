@@ -11,11 +11,11 @@ function Footer() {
     <div className="pt-20 pb-5 md:px-5 px-2 bg-custom-footNav flex justify-center selection:bg-custom-theme selection:text-custom-white">
       <div className="max-w-screen-xl">
         <div className="flex xl:flex-row flex-col lg:justify-evenly">
-          <span className="text-2xl h-14 font-bold cursor-pointer mb-10 flex justify-center">
+          <span className="text-2xl h-28 font-bold cursor-pointer mb-10 flex justify-center">
             <Link to="/">
               <img
-                className="h-14 inline"
-                src="/assets/logoipsum-286.svg"
+                className="h-28 inline"
+                src="/assets/arclogo.jpg"
                 alt=""
               />
             </Link>
