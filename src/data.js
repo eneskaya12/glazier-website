@@ -153,6 +153,39 @@ export const common = [
   },
 ];
 
+export const brands = [
+  {
+    name: {
+      tr: "Çalıştığımız Markalar",
+      en: "Brands We Work With",
+      de: "Marken, mit denen wir zusammenarbeiten",
+    },
+    images: [
+      {
+        src: "/assets/brands/aluway.png",
+      },
+      {
+        src: "/assets/brands/asas.jpg",
+      },
+      {
+        src: "/assets/brands/egepen.jpg",
+      },
+      {
+        src: "/assets/brands/linearossa.png",
+      },
+      {
+        src: "/assets/brands/rehau.png",
+      },
+      {
+        src: "/assets/brands/schuco.jpg",
+      },
+      {
+        src: "/assets/brands/somfy.png",
+      },
+    ],
+  }
+]
+
 export const projects = [
   {
     name: {
