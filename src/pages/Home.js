@@ -7,6 +7,7 @@ import Header from "../components/Header";
 import Products from "../components/Products";
 import Projects from "../components/Projects";
 import Topbar from "../components/Topbar";
+import Wplink from "../components/Wplink";
 
 function Home() {
   const [sticky, setSticky] = useState(false);
@@ -28,6 +29,7 @@ function Home() {
   return (
     <div className="bg-custom-white">
     {sticky && <GoTop />}
+      <Wplink />
       <Topbar />
       <Header />
       <About />
