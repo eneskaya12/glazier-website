@@ -146,6 +146,12 @@ function Contact() {
                   >
                     <ion-icon name="logo-facebook"></ion-icon>
                   </a>
+                  <a
+                    className="mr-5 hover:text-custom-theme duration-200"
+                    href="https://wa.me/+905321707020"
+                  >
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                  </a>
                 </div>
               </div>
             </div>

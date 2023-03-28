@@ -13,11 +13,7 @@ function Footer() {
         <div className="flex xl:flex-row flex-col lg:justify-evenly">
           <span className="text-2xl h-28 font-bold cursor-pointer mb-10 flex justify-center">
             <Link to="/">
-              <img
-                className="h-28 inline"
-                src="/assets/arclogo.jpg"
-                alt=""
-              />
+              <img className="h-28 inline" src="/assets/arclogo.jpg" alt="" />
             </Link>
           </span>
           <div className="flex justify-center flex-wrap md:mx-5">
@@ -64,7 +60,9 @@ function Footer() {
               </Link>
               <span className="mb-1 font-[Montserrat] flex items-center text-custom-theme font-medium">
                 <ion-icon name="location-outline"></ion-icon>
-                <span className="ml-3 text-custom-white">İncilipınar, 1252. Sk. No:4 - Denizli</span>
+                <span className="ml-3 text-custom-white">
+                  İncilipınar, 1252. Sk. No:4 - Denizli
+                </span>
               </span>
               <span className="mb-1 font-[Montserrat] flex items-center text-custom-theme font-medium">
                 <ion-icon name="call-outline"></ion-icon>
@@ -72,8 +70,9 @@ function Footer() {
               </span>
               <span className="mb-1 font-[Montserrat] flex items-center text-custom-theme font-medium">
                 <ion-icon name="mail-outline"></ion-icon>
-                <span className="ml-3 text-custom-white">arcyapi@hotmail.com</span>
-                 
+                <span className="ml-3 text-custom-white">
+                  arcyapi@hotmail.com
+                </span>
               </span>
             </div>
           </div>
@@ -91,11 +90,19 @@ function Footer() {
             >
               <ion-icon name="logo-facebook"></ion-icon>
             </a>
+            <a
+              className="mt-5 mr-3 h-9 hover:text-custom-theme text-custom-white duration-200"
+              href="https://wa.me/+905321707020"
+            >
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
           </div>
         </div>
         <hr className="border-6 w-full text-custom-theme mt-5" />
         <div className="w-full flex text-custom-white text-center justify-center p-5">
-          <span>Copyright © {new Date().getFullYear()} All rights reserved.</span>
+          <span>
+            Copyright © {new Date().getFullYear()} All rights reserved.
+          </span>
         </div>
       </div>
     </div>
