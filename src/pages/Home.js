@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import About from "../components/About";
+import Brands from "../components/Brands";
 import Footer from "../components/Footer";
 import GoTop from "../components/GoTop";
 import Header from "../components/Header";
@@ -32,6 +33,7 @@ function Home() {
       <About />
       <Products />
       <Projects />
+      <Brands/>
       <Footer />
     </div>
   );
