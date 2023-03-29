@@ -19,9 +19,9 @@ function About() {
               ))}
             </ul>
           </div>
-          <div className=" lg:w-1/2 mb-10 lg:mb-0">
+          <div className=" lg:w-1/2 mb-10 lg:mb-0 flex justify-center">
             <img
-              className="rounded-xl md:full md:h-full object-cover"
+              className="rounded-xl h-[590px] object-cover"
               src={about[0].img}
               alt=""
             />

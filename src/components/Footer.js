@@ -78,7 +78,7 @@ function Footer() {
               <span className="mb-1 font-[Montserrat] flex items-center text-custom-theme font-medium">
                 <ion-icon name="mail-outline"></ion-icon>
                 <span className="ml-3 text-custom-white">
-                  arcyapi@hotmail.com
+                  arcyapi2@gmail.com
                 </span>
               </span>
             </div>
@@ -87,7 +87,7 @@ function Footer() {
           <div className="text-3xl flex flex-wrap justify-center h-1/2">
             <a
               className="mt-5 mr-3 h-9 hover:text-custom-theme text-custom-white duration-200"
-              href="https://instagram.com/ramazancal84?igshid=YmMyMTA2M2Y="
+              href="https://www.instagram.com/arcyapi20/?igshid=YmMyMTA2M2Y%3D"
             >
               <ion-icon name="logo-instagram"></ion-icon>
             </a>

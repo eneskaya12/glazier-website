@@ -5,7 +5,7 @@ export const about = [
       en: "Established in 2012, its initial activity is aluminum joinery and facade applications, but it has increased its product range by operating in plastic joinery, aluminum stairs and balcony railings, automatic blinds and garage doors, photocell doors, steel doors, glass balconies, roller blinds, suspended ceilings. has increased. Since 2003, it has announced its name with its existence in the sector and has increased itself and customer satisfaction to the highest levels with its incorporation. Profiles and accessories of the leading companies of the sector are used in every branch of activity. It has made it its duty to make fast and high quality production with its full automatic CNC machine park.",
       de: "Das 2012 gegründete Unternehmen umfasst zunächst Aluminiumtischlerei und Fassadenanwendungen, hat seine Produktpalette jedoch um Kunststofftischlerei, Aluminiumtreppen und Balkongeländer, automatische Jalousien und Garagentore, Fotozellentüren, Stahltüren, Glasbalkone und Rollläden erweitert , abgehängte Decken. ist angestiegen. Seit 2003 hat es seinen Namen mit seiner Existenz in der Branche bekannt gemacht und mit seiner Gründung die Selbst- und Kundenzufriedenheit auf höchstem Niveau gesteigert. Profile und Zubehör der führenden Unternehmen der Branche werden in allen Tätigkeitsbereichen verwendet. Sie hat es sich zur Aufgabe gemacht, mit ihrem vollautomatischen CNC-Maschinenpark schnell und qualitativ hochwertig zu produzieren.",
     },
-    img: "https://lh3.googleusercontent.com/p/AF1QipNp6Nb_9B0nOkym-kSJhtIzpS8qn1rEHIAI254-=w1080-h608-p-k-no-v0",
+    img: "/assets/about.jpg",
     list: [
       {
         li: {
@@ -200,6 +200,9 @@ export const brands = [
       {
         src: "/assets/brands/roto.jpg",
       },
+      {
+        src: "/assets/brands/sisecam.png",
+      },
     ],
   },
 ];
@@ -313,7 +316,7 @@ export const products = [
       en: "Aluminum Joinery",
       de: "Tischlerei aus Aluminium",
     },
-    img: "/assets/products/aluminyum/0.jpg",
+    img: "/assets/products/aluminyum/1.jpg",
     url: "aluminyum",
     types: [
       {
@@ -362,6 +365,29 @@ export const products = [
           },
         ],
       },
+      {
+        name: {
+          tr: "Alüminyum Sistemleri",
+          en: "Aluminum Systems",
+          de: "Aluminiumsysteme",
+        },
+        img: "/assets/products/aluminyum/aluminyumSistemleri/1.jpg",
+        url: "aluminyum-sistemleri",
+        images: [
+          {
+            src: "/assets/products/aluminyum/aluminyumSistemleri/1.jpg",
+          },
+          {
+            src: "/assets/products/aluminyum/aluminyumSistemleri/2.jpg",
+          },
+          {
+            src: "/assets/products/aluminyum/aluminyumSistemleri/3.jpg",
+          },
+          {
+            src: "/assets/products/aluminyum/aluminyumSistemleri/4.jpg",
+          },
+        ],
+      },
     ],
   },
   {
@@ -370,7 +396,7 @@ export const products = [
       en: "PVC Joinery",
       de: "PVC Tischlerei",
     },
-    img: "/assets/products/pvc/0.jpg",
+    img: "/assets/products/pvc/pvcSistemleri/1.jpg",
     url: "pvc",
     types: [
       {
@@ -413,6 +439,29 @@ export const products = [
           },
         ],
       },
+      {
+        name: {
+          tr: "PVC Sistemleri",
+          en: "PVC Systems",
+          de: "PVC-Systeme",
+        },
+        img: "/assets/products/pvc/pvcSistemleri/1.jpg",
+        url: "pvc-sistemleri",
+        images: [
+          {
+            src: "/assets/products/pvc/pvcSistemleri/1.jpg",
+          },
+          {
+            src: "/assets/products/pvc/pvcSistemleri/2.jpg",
+          },
+          {
+            src: "/assets/products/pvc/pvcSistemleri/3.jpg",
+          },
+          {
+            src: "/assets/products/pvc/pvcSistemleri/4.jpg",
+          },
+        ],
+      },
     ],
   },
 ];
@@ -424,7 +473,7 @@ export const products2 = [
       en: "Glass Balcony",
       de: "Balkon aus Glas",
     },
-    img: "/assets/products/camBalkon/1.jpg",
+    img: "/assets/products/camBalkon/5.jpg",
     url: "cam-balkon",
     images: [
       {
@@ -550,6 +599,9 @@ export const products2 = [
       },
       {
         src: "/assets/products/bioklimatik/2.jpg",
+      },
+      {
+        src: "/assets/products/bioklimatik/biyoklimatik.gif",
       },
     ],
   },

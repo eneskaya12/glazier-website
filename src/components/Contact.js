@@ -125,7 +125,7 @@ function Contact() {
                 <div className="text-custom-theme mt-3 flex items-center">
                   <ion-icon name="mail-outline"></ion-icon>
                   <span className="text-custom-desc ml-5 font-[Montserrat]">
-                    arcyapi@hotmail.com
+                    arcyapi2@gmail.com
                   </span>
                 </div>
               </div>
@@ -136,7 +136,7 @@ function Contact() {
                 <div className="mt-5 text-4xl">
                   <a
                     className="mr-5 hover:text-custom-theme duration-200"
-                    href="https://instagram.com/ramazancal84?igshid=YmMyMTA2M2Y="
+                    href="https://www.instagram.com/arcyapi20/?igshid=YmMyMTA2M2Y%3D"
                   >
                     <ion-icon name="logo-instagram"></ion-icon>
                   </a>
