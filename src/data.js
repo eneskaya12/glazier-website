@@ -182,9 +182,27 @@ export const brands = [
       {
         src: "/assets/brands/somfy.png",
       },
+      {
+        src: "/assets/brands/albertgenau.jpg",
+      },
+      {
+        src: "/assets/brands/alusel.jpg",
+      },
+      {
+        src: "/assets/brands/gu.jpg",
+      },
+      {
+        src: "/assets/brands/nice.jpg",
+      },
+      {
+        src: "/assets/brands/pimapen.jpg",
+      },
+      {
+        src: "/assets/brands/roto.jpg",
+      },
     ],
-  }
-]
+  },
+];
 
 export const projects = [
   {
@@ -256,6 +274,35 @@ export const projects = [
       en: "We hope that our PVC joinery, which is extremely durable and has the reliability of ARC Yapı, will be beneficial for our Acıpayam District.",
       de: "Wir hoffen, dass unsere PVC-Tischlerei, die extrem langlebig ist und die Zuverlässigkeit von ARC Yapı hat, unserem Distrikt Acıpayam zugute kommt.",
     },
+  },
+];
+
+export const projects2 = [
+  {
+    name: {
+      tr: "Villa",
+      en: "Villa",
+      de: "Villa",
+    },
+    img: "/assets/products/villa/4.jpg",
+    url: "villa",
+    images: [
+      {
+        src: "/assets/products/villa/1.jpg",
+      },
+      {
+        src: "/assets/products/villa/2.jpg",
+      },
+      {
+        src: "/assets/products/villa/3.jpg",
+      },
+      {
+        src: "/assets/products/villa/4.jpg",
+      },
+      {
+        src: "/assets/products/villa/5.jpg",
+      },
+    ],
   },
 ];
 
@@ -486,7 +533,24 @@ export const products2 = [
       },
       {
         src: "/assets/products/panjur/5.jpg",
-      },  
+      },
+    ],
+  },
+  {
+    name: {
+      tr: "Bioklimatik Pergola Sistemi",
+      en: "Bioclimatic Pergola System",
+      de: "Bioklimatisches Pergola-System",
+    },
+    img: "/assets/products/bioklimatik/1.jpg",
+    url: "bioklimatik-pergola-sistemi",
+    images: [
+      {
+        src: "/assets/products/bioklimatik/1.jpg",
+      },
+      {
+        src: "/assets/products/bioklimatik/2.jpg",
+      },
     ],
   },
 ];
