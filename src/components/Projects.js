@@ -1,6 +1,7 @@
 import Project from "./Project";
 import { useTranslation } from "react-i18next";
-import { projects, common } from "../data";
+import { projects, common, projects2 } from "../data";
+import Project2 from "./Project2";
 
 function Projects() {
   useTranslation();
@@ -21,6 +22,9 @@ function Projects() {
         <div className="h-auto flex flex-wrap justify-center">
           {projects.map((p) => (
             <Project project={p} />
+          ))}
+          {projects2.map((p) => (
+            <Project2 project={p} />
           ))}
         </div>
       </div>

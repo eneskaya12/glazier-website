@@ -284,23 +284,23 @@ export const projects2 = [
       en: "Villa",
       de: "Villa",
     },
-    img: "/assets/products/villa/4.jpg",
+    img: "/assets/projects/villa/4.jpg",
     url: "villa",
     images: [
       {
-        src: "/assets/products/villa/1.jpg",
+        src: "/assets/projects/villa/1.jpg",
       },
       {
-        src: "/assets/products/villa/2.jpg",
+        src: "/assets/projects/villa/2.jpg",
       },
       {
-        src: "/assets/products/villa/3.jpg",
+        src: "/assets/projects/villa/3.jpg",
       },
       {
-        src: "/assets/products/villa/4.jpg",
+        src: "/assets/projects/villa/4.jpg",
       },
       {
-        src: "/assets/products/villa/5.jpg",
+        src: "/assets/projects/villa/5.jpg",
       },
     ],
   },

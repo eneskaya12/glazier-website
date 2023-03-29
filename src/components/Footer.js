@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { common, products, products2, projects } from "../data";
+import { common, products, products2, projects, projects2 } from "../data";
 
 function Footer() {
   useTranslation();
@@ -46,6 +46,13 @@ function Footer() {
               </Link>
               {projects.map((p) => (
                 <Link to={`/projects/${p.url}`}>
+                  <span className="mb-1 cursor-pointer font-[Montserrat] hover:text-custom-theme text-custom-white duration-200 font-medium">
+                    {p.name[`${lng}`]}
+                  </span>
+                </Link>
+              ))}
+              {projects2.map((p) => (
+                <Link to={`/project/${p.url}`}>
                   <span className="mb-1 cursor-pointer font-[Montserrat] hover:text-custom-theme text-custom-white duration-200 font-medium">
                     {p.name[`${lng}`]}
                   </span>
