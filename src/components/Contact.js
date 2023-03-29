@@ -113,13 +113,13 @@ function Contact() {
                 <div className="text-custom-theme flex items-center">
                   <ion-icon name="location-outline"></ion-icon>
                   <span className="text-custom-desc ml-5 font-[Montserrat]">
-                    İncilipınar, 1252. Sk. No:4 - Denizli
+                    İncilipınar, 1252. Sk. No:4 - Denizli/Turkey
                   </span>
                 </div>
                 <div className="text-custom-theme mt-3 flex items-center">
                   <ion-icon name="call-outline"></ion-icon>
                   <span className="text-custom-desc ml-5 font-[Montserrat]">
-                    0532 170 70 20
+                    +90 532 170 70 20
                   </span>
                 </div>
                 <div className="text-custom-theme mt-3 flex items-center">

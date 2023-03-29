@@ -68,12 +68,12 @@ function Footer() {
               <span className="mb-1 font-[Montserrat] flex items-center text-custom-theme font-medium">
                 <ion-icon name="location-outline"></ion-icon>
                 <span className="ml-3 text-custom-white">
-                  İncilipınar, 1252. Sk. No:4 - Denizli
+                  İncilipınar, 1252. Sk. No:4 - Denizli/Turkey
                 </span>
               </span>
               <span className="mb-1 font-[Montserrat] flex items-center text-custom-theme font-medium">
                 <ion-icon name="call-outline"></ion-icon>
-                <span className="ml-3 text-custom-white">0532 170 70 20</span>
+                <span className="ml-3 text-custom-white">+90 532 170 70 20</span>
               </span>
               <span className="mb-1 font-[Montserrat] flex items-center text-custom-theme font-medium">
                 <ion-icon name="mail-outline"></ion-icon>
