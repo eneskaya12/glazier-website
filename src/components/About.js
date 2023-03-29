@@ -21,7 +21,7 @@ function About() {
           </div>
           <div className=" lg:w-1/2 mb-10 lg:mb-0 flex justify-center">
             <img
-              className="rounded-xl h-[590px] object-cover"
+              className="rounded-xl h-[580px] lg:h-auto object-cover"
               src={about[0].img}
               alt=""
             />
