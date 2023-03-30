@@ -49,6 +49,13 @@ export const about = [
           de: "Fliegengittersysteme",
         },
       },
+      {
+        li: {
+          tr: "Kış Bahçesi",
+          en: "Winter garden",
+          de: "Wintergarten",
+        },
+      },
     ],
     descBtt: {
       tr: "gibi müşterilerine her türlü iç mekan ve dış mekan çözümleri sunmakta, satış ve satış sonrası hizmetleri sürdürmektedir. Yenilenen ve genişleyen uzman kadromuz, teknik altyapımız ile her gecen gün hizmetlerimizi güncellemekte, teknolojik gelişmeleri müşterilerimize iletmekteyiz.",
