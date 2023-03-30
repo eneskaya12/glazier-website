@@ -16,7 +16,7 @@ function Footer() {
               <img className="h-28 inline" src="/assets/arclogo.jpg" alt="" />
             </Link>
           </span>
-          <div className="flex justify-center flex-wrap md:mx-5">
+          <div className="flex justify-center flex-wrap md:mx-3">
             <div className="flex flex-col md:m-5 m-3">
               <Link to="/products" className="cursor-default mb-3">
                 <span className="text-lg font-medium cursor-pointer font-[Montserrat] hover:text-custom-white text-custom-theme duration-200">
